@@ -1,0 +1,5 @@
+---
+---
+
+@import "{{ site.theme }}";
+.wrapper {border: 2px solid red}
