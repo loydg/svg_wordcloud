@@ -12,7 +12,7 @@
     <![endif]-->
   </head>
   <body>
-    <!-- div class="wrapper" -->
+    <div class="wrapper">
       <header>
         
         {% if site.logo %}
@@ -27,10 +27,16 @@
       {{ content }}
 
       </section>
+      <section>
+       {% highlight python %}
+         x = ('a', 1, False)
+       {% endhighlight %}
+
+      </section>
       <footer>
 
       </footer>
-    <!-- /div -->
+    </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
