@@ -13,29 +13,13 @@
   </head>
   <body>
     <div class="wrapper" style="border:solid">
-      <header>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-      </header>
       <section>
 
       {{ content }}
 
       </section>
-      <section>
-       {% highlight python %}
-         x = ('a', 1, False)
-       {% endhighlight %}
-
-      </section>
-      <footer>
-
-      </footer>
+      
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
