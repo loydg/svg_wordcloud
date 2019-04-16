@@ -217,8 +217,8 @@ Background_Color = 'white'
 print ("""<svg width="{0}" height="{1}" xmlns="http://www.w3.org/2000/svg">
     <defs><style type="text/css">
     @import url("{2}");
-    text {\{font-family: {3};
-    font-variant-ligatures:none\}}
+    text {font-family: {3};
+    font-variant-ligatures:none}
     </style></defs>""".format(Width, Height, google_font_URL, google_font_family))
 
 # SVG background rectangle
