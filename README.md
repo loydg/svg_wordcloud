@@ -8,11 +8,8 @@ An example [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg),
 [black_ops_one.svg](https://loydg.github.io/gh_pages/examples/black_ops_one.svg), 
 [press_start_2p.svg](https://loydg.github.io/gh_pages/examples/press_start_2p.svg)
 
-A single line was added to generate_from_text()
-```python
-self.to_svg()
-```
-Here is the complete code for generate_from_text(). The additional line is before the return call.
+A single line - `self.to_svg()` was added to `generate_from_text()`.
+Here is the complete code for `generate_from_text()`. The additional line is before the return call.
 ```python
     def generate_from_text(self, text):
         """Generate wordcloud from text.
@@ -37,7 +34,7 @@ Here is the complete code for generate_from_text(). The additional line is befor
         return self
 ```
 
-An extra function to_svg() was added and placed before to_img(). to_svg() prints the words in the layout as SVG to standard output - just the words not the opening/closing `<svg><style></style>...</svg>` elements.
+An extra function `to_svg()` was added and placed before `to_img()`. `to_svg()` prints the words in the layout as SVG to standard output - just the words not the opening/closing `<svg><style></style>...</svg>` elements.
 
 ```python
     def to_svg(self):
