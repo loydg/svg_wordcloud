@@ -2,4 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
-.wrapper {border: 2px solid red}
+.wrapper {
+  width:900px;
+  margin:0 auto;
+  border-width:2px;
+  border-style:solid;
+  border-color:black;
+}
+section {
+  width:850px;
+  float:left;
+  padding-bottom:50px;
+}
