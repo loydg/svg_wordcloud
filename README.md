@@ -1,5 +1,9 @@
 # gh_pages
 An example [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg)
+[amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg)
+[zcool_kuaile.svg](https://loydg.github.io/gh_pages/examples/zcool_kuaile.svg)
+[zilla_slab_highlight_bold.svg](https://loydg.github.io/gh_pages/examples/zilla_slab_highlight_bold.svgg)
+
 A single line was added to generate_from_text()
 ```python
 self.to_svg()
