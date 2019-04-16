@@ -1,8 +1,12 @@
 # gh_pages
-An example [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg)
-[amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg)
-[zcool_kuaile.svg](https://loydg.github.io/gh_pages/examples/zcool_kuaile.svg)
-[zilla_slab_highlight_bold.svg](https://loydg.github.io/gh_pages/examples/zilla_slab_highlight_bold.svg)
+An example [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
+[amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg), 
+[zcool_kuaile.svg](https://loydg.github.io/gh_pages/examples/zcool_kuaile.svg), 
+[zilla_slab_highlight_bold.svg](https://loydg.github.io/gh_pages/examples/zilla_slab_highlight_bold.svg), 
+[libre_barcode_39_text.svg](https://loydg.github.io/gh_pages/examples/libre_barcode_39_text.svg), 
+[stalinist_one.svg](https://loydg.github.io/gh_pages/examples/stalinist_one.svg), 
+[black_ops_one.svg](https://loydg.github.io/gh_pages/examples/black_ops_one.svg), 
+[press_start_2p.svg](https://loydg.github.io/gh_pages/examples/press_start_2p.svg)
 
 A single line was added to generate_from_text()
 ```python
