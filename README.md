@@ -37,7 +37,7 @@ Here is the complete code for generate_from_text(). The additional line is befor
         return self
 ```
 
-An extra function to_svg() was added and placed before to_img(). to_svg() prints the words in the layout as SVG to standard output - just the words not the opening/closing <svg><style></style>...</svg> elements.
+An extra function to_svg() was added and placed before to_img(). to_svg() prints the words in the layout as SVG to standard output - just the words not the opening/closing `<svg><style></style>...</svg>` elements.
 
 ```python
     def to_svg(self):
