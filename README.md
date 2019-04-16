@@ -1,10 +1,10 @@
 # gh_pages
 A single line was added to generate_from_text()
-'''python
+```python
 self.to_svg()
-'''
+```
 
-'''python
+```python
     def generate_from_text(self, text):
         """Generate wordcloud from text.
 
@@ -26,11 +26,11 @@ self.to_svg()
         self.generate_from_frequencies(words)
         self.to_svg()
         return self
-'''
+```
 
 An extra function to_svg() was added and placed before to_img()
 
-'''python
+```python
     def to_svg(self):
         
         for (word, count), font_size, position, orientation, color in self.layout_:
@@ -71,12 +71,12 @@ An extra function to_svg() was added and placed before to_img()
             """
             print ('<text x="{}" y="{}" font-size="{}"{}{}>{}</text>'.format(svgX, svgY, font_size, svgTransform, svgFill, word))
     
-'''
+```
 
 Download a_new_hope.txt and stormtrooper_mask.png.
 The python script is modified to download the ttf file from google's github storage.
 
-'''python
+```python
 #!/usr/bin/env python
 """
 Using custom colors
@@ -235,4 +235,4 @@ plt.imshow(wc.recolor(color_func=grey_color_func, random_state=3),
 wc.to_file("a_new_hope.png")
 plt.axis("off")
 plt.show()
-'''
+```
