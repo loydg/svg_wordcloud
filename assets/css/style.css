@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 .wrapper {
   width:900px;
-  margin:50 auto;
+  padding:50px;
 }
 section {
   width:850px;
