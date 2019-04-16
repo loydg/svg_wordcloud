@@ -1,4 +1,5 @@
 # gh_pages
+An example <a href=https://loydg.github.io/gh_pages/examples/oswald.svg">Oswald.svg</a>
 A single line was added to generate_from_text()
 ```python
 self.to_svg()
