@@ -4,10 +4,7 @@
 @import "{{ site.theme }}";
 .wrapper {
   width:900px;
-  margin:0 auto;
-  border-width:2px;
-  border-style:solid;
-  border-color:black;
+  margin:50 auto;
 }
 section {
   width:850px;
