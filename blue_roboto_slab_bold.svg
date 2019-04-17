@@ -1,0 +1,486 @@
+<svg width="1190" height="1028" xmlns="http://www.w3.org/2000/svg">
+    <defs><style type="text/css">
+    @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:700");
+    text {font-family: 'Roboto Slab', serif;font-weight:bold;
+    font-kerning:none;
+    font-variant-ligatures:none}
+    </style></defs>
+<text x="468" y="767" font-size="130" fill="#1e72f9">Luke</text>
+<text x="255" y="662" font-size="92" fill="#1e72f9">Han</text>
+<text x="280" y="214" font-size="85" fill="#1e72f9">DEATH STAR</text>
+<text x="391" y="489" font-size="68" fill="#1e72f9">THREEPIO</text>
+<text x="680" y="261" font-size="60" fill="#1e72f9">Ben</text>
+<text x="631" y="594" font-size="52" fill="#1e72f9">ship</text>
+<text x="903" y="557" font-size="50" fill="#1e72f9">Leia</text>
+<text x="304" y="395" font-size="48" fill="#1e72f9">one</text>
+<text x="896" y="388" font-size="46" transform="rotate(-90, 896, 388) translate(-96, 0)" fill="#1e72f9">look</text>
+<text x="156" y="709" font-size="46" fill="#1e72f9">RED LEADER</text>
+<text x="928" y="708" font-size="45" fill="#1e72f9">Artoo</text>
+<text x="676" y="654" font-size="44" fill="#1e72f9">back</text>
+<text x="676" y="837" font-size="43" fill="#1e72f9">move</text>
+<text x="509" y="542" font-size="42" fill="#1e72f9">going</text>
+<text x="154" y="739" font-size="41" transform="rotate(-90, 154, 739) translate(-74, 0)" fill="#1e72f9">two</text>
+<text x="256" y="433" font-size="41" fill="#1e72f9">Biggs</text>
+<text x="785" y="598" font-size="41" fill="#1e72f9">TIE fighter</text>
+<text x="446" y="131" font-size="40" fill="#1e72f9">Vader</text>
+<text x="872" y="705" font-size="39" transform="rotate(-90, 872, 705) translate(-60, 0)" fill="#1e72f9">see</text>
+<text x="222" y="243" font-size="35" fill="#1e72f9">MILLENNIUM FALCON</text>
+<text x="946" y="378" font-size="34" transform="rotate(-90, 946, 378) translate(-115, 0)" fill="#1e72f9">toward</text>
+<text x="642" y="874" font-size="34" fill="#1e72f9">right</text>
+<text x="469" y="798" font-size="34" fill="#1e72f9">Luke WING</text>
+<text x="170" y="763" font-size="34" fill="#1e72f9">come</text>
+<text x="303" y="342" font-size="33" fill="#1e72f9">trooper</text>
+<text x="437" y="719" font-size="32" transform="rotate(-90, 437, 719) translate(-79, 0)" fill="#1e72f9">robot</text>
+<text x="514" y="678" font-size="32" fill="#1e72f9">small</text>
+<text x="646" y="136" font-size="31" fill="#1e72f9">SPACE</text>
+<text x="795" y="623" font-size="30" fill="#1e72f9">now</text>
+<text x="659" y="794" font-size="25" fill="#1e72f9">WING FIGHTER</text>
+<text x="372" y="133" font-size="25" fill="#1e72f9">take</text>
+<text x="333" y="592" font-size="25" fill="#1e72f9">begin</text>
+<text x="417" y="408" font-size="25" fill="#1e72f9">make</text>
+<text x="1011" y="645" font-size="24" fill="#1e72f9">away</text>
+<text x="199" y="646" font-size="24" fill="#1e72f9">fire</text>
+<text x="795" y="389" font-size="24" fill="#1e72f9">will</text>
+<text x="608" y="641" font-size="24" fill="#1e72f9">turn</text>
+<text x="564" y="136" font-size="24" fill="#1e72f9">stand</text>
+<text x="659" y="674" font-size="24" fill="#1e72f9">stormtrooper</text>
+<text x="909" y="725" font-size="23" fill="#1e72f9">way</text>
+<text x="574" y="590" font-size="23" fill="#1e72f9">side</text>
+<text x="205" y="463" font-size="23" fill="#1e72f9">COCKPIT Luke</text>
+<text x="848" y="211" font-size="23" fill="#1e72f9">sir</text>
+<text x="455" y="644" font-size="23" fill="#1e72f9">think</text>
+<text x="214" y="481" font-size="23" transform="rotate(-90, 214, 481) translate(-54, 0)" fill="#1e72f9">head</text>
+<text x="411" y="427" font-size="20" fill="#1e72f9">DARTH VADER</text>
+<text x="458" y="714" font-size="20" transform="rotate(-90, 458, 714) translate(-139, 0)" fill="#1e72f9">GOLD LEADER</text>
+<text x="682" y="517" font-size="20" fill="#1e72f9">huge</text>
+<text x="205" y="798" font-size="20" fill="#1e72f9">got</text>
+<text x="610" y="89" font-size="20" transform="rotate(-90, 610, 89) translate(-22, 0)" fill="#1e72f9">us</text>
+<text x="555" y="916" font-size="20" fill="#1e72f9">time</text>
+<text x="178" y="727" font-size="20" fill="#1e72f9">computer</text>
+<text x="715" y="282" font-size="20" fill="#1e72f9">several</text>
+<text x="867" y="247" font-size="20" fill="#1e72f9">Rebel</text>
+<text x="670" y="542" font-size="20" fill="#1e72f9">know</text>
+<text x="556" y="264" font-size="20" fill="#1e72f9">Chewbacca</text>
+<text x="965" y="333" font-size="20" transform="rotate(-90, 965, 333) translate(-171, 0)" fill="#1e72f9">SURFACE DEATH</text>
+<text x="458" y="525" font-size="20" fill="#1e72f9">long</text>
+<text x="495" y="805" font-size="20" transform="rotate(-90, 495, 805) translate(-85, 0)" fill="#1e72f9">OFFICER</text>
+<text x="345" y="725" font-size="20" fill="#1e72f9">across</text>
+<text x="797" y="237" font-size="20" fill="#1e72f9">OWEN</text>
+<text x="602" y="901" font-size="20" fill="#1e72f9">pirateship</text>
+<text x="1021" y="511" font-size="20" transform="rotate(-90, 1021, 511) translate(-101, 0)" fill="#1e72f9">something</text>
+<text x="87" y="811" font-size="20" fill="#1e72f9">go</text>
+<text x="242" y="584" font-size="20" fill="#1e72f9">control</text>
+<text x="950" y="665" font-size="15" fill="#1e72f9">FIGHTER COCKPIT</text>
+<text x="159" y="904" font-size="15" fill="#1e72f9">behind</text>
+<text x="337" y="139" font-size="15" fill="#1e72f9">hit</text>
+<text x="732" y="425" font-size="15" fill="#1e72f9">light</text>
+<text x="961" y="723" font-size="15" fill="#1e72f9">WING COCKPIT</text>
+<text x="900" y="304" font-size="15" fill="#1e72f9">Imperial</text>
+<text x="210" y="263" font-size="15" fill="#1e72f9">around</text>
+<text x="582" y="610" font-size="15" fill="#1e72f9">Suddenly</text>
+<text x="863" y="500" font-size="15" fill="#1e72f9">troops</text>
+<text x="236" y="881" font-size="15" fill="#1e72f9">eye</text>
+<text x="622" y="824" font-size="15" fill="#1e72f9">start</text>
+<text x="179" y="664" font-size="15" fill="#1e72f9">TARKIN</text>
+<text x="390" y="369" font-size="15" fill="#1e72f9">Luke look</text>
+<text x="406" y="594" font-size="15" fill="#1e72f9">hand</text>
+<text x="589" y="505" font-size="15" fill="#1e72f9">another</text>
+<text x="839" y="553" font-size="15" fill="#1e72f9">hallway</text>
+<text x="882" y="691" font-size="15" fill="#1e72f9">little</text>
+<text x="110" y="748" font-size="15" transform="rotate(-90, 110, 748) translate(-46, 0)" fill="#1e72f9">VOICE</text>
+<text x="622" y="103" font-size="15" fill="#1e72f9">face</text>
+<text x="891" y="743" font-size="15" fill="#1e72f9">blast</text>
+<text x="98" y="855" font-size="15" fill="#1e72f9">large</text>
+<text x="613" y="653" font-size="15" transform="rotate(-90, 613, 653) translate(-31, 0)" fill="#1e72f9">wall</text>
+<text x="777" y="750" font-size="15" fill="#1e72f9">creature</text>
+<text x="181" y="552" font-size="15" fill="#1e72f9">give</text>
+<text x="618" y="836" font-size="15" transform="rotate(-90, 618, 836) translate(-25, 0)" fill="#1e72f9">run</text>
+<text x="1051" y="699" font-size="15" fill="#1e72f9">pilot</text>
+<text x="797" y="821" font-size="15" fill="#1e72f9">race</text>
+<text x="398" y="506" font-size="15" fill="#1e72f9">seem</text>
+<text x="743" y="594" font-size="15" fill="#1e72f9">Force</text>
+<text x="268" y="549" font-size="15" fill="#1e72f9">trench</text>
+<text x="740" y="402" font-size="13" fill="#1e72f9">SPACE AROUND</text>
+<text x="909" y="371" font-size="13" transform="rotate(-90, 909, 371) translate(-106, 0)" fill="#1e72f9">AROUND DEATH</text>
+<text x="225" y="903" font-size="13" fill="#1e72f9">door</text>
+<text x="902" y="277" font-size="13" fill="#1e72f9">system</text>
+<text x="729" y="542" font-size="13" fill="#1e72f9">stop</text>
+<text x="539" y="650" font-size="13" fill="#1e72f9">Well</text>
+<text x="631" y="231" font-size="13" fill="#1e72f9">Jawa</text>
+<text x="496" y="568" font-size="13" fill="#1e72f9">looking</text>
+<text x="402" y="747" font-size="13" transform="rotate(-90, 402, 747) translate(-26, 0)" fill="#1e72f9">Solo</text>
+<text x="791" y="640" font-size="13" fill="#1e72f9">Star surface</text>
+<text x="727" y="867" font-size="13" fill="#1e72f9">surface</text>
+<text x="972" y="401" font-size="13" fill="#1e72f9">past</text>
+<text x="479" y="503" font-size="13" fill="#1e72f9">laserfire</text>
+<text x="942" y="616" font-size="13" fill="#1e72f9">Alderaan</text>
+<text x="121" y="831" font-size="13" fill="#1e72f9">pull</text>
+<text x="276" y="359" font-size="13" fill="#1e72f9">COCKPIT Red</text>
+<text x="158" y="800" font-size="13" fill="#1e72f9">power</text>
+<text x="452" y="659" font-size="13" fill="#1e72f9">old</text>
+<text x="531" y="94" font-size="13" fill="#1e72f9">must</text>
+<text x="733" y="608" font-size="13" fill="#1e72f9">WEDGE</text>
+<text x="444" y="143" font-size="11" fill="#1e72f9">MASSASSI OUTPOST</text>
+<text x="346" y="477" font-size="11" fill="#1e72f9">Princess</text>
+<text x="368" y="413" font-size="11" fill="#1e72f9">sound</text>
+<text x="113" y="884" font-size="11" fill="#1e72f9">hold</text>
+<text x="746" y="566" font-size="11" fill="#1e72f9">say</text>
+<text x="774" y="765" font-size="11" fill="#1e72f9">WAR ROOM</text>
+<text x="491" y="903" font-size="11" fill="#1e72f9">RED TEN</text>
+<text x="520" y="727" font-size="11" fill="#1e72f9">want</text>
+<text x="251" y="200" font-size="11" fill="#1e72f9">good</text>
+<text x="976" y="420" font-size="11" fill="#1e72f9">droid</text>
+<text x="877" y="758" font-size="11" fill="#1e72f9">continue</text>
+<text x="634" y="521" font-size="11" fill="#1e72f9">dive</text>
+<text x="640" y="278" font-size="11" fill="#1e72f9">GOLD FIVE</text>
+<text x="469" y="542" font-size="11" fill="#1e72f9">sure</text>
+<text x="224" y="488" font-size="11" fill="#1e72f9">front</text>
+<text x="125" y="723" font-size="11" fill="#1e72f9">friend</text>
+<text x="1030" y="739" font-size="11" fill="#1e72f9">wait</text>
+<text x="913" y="510" font-size="11" fill="#1e72f9">find</text>
+<text x="502" y="255" font-size="11" fill="#1e72f9">standing</text>
+<text x="253" y="380" font-size="11" fill="#1e72f9">speeder</text>
+<text x="544" y="580" font-size="11" fill="#1e72f9">gun</text>
+<text x="863" y="618" font-size="11" fill="#1e72f9">comlink</text>
+<text x="671" y="686" font-size="11" fill="#1e72f9">VADER COCKPIT</text>
+<text x="247" y="772" font-size="11" transform="rotate(-90, 247, 772) translate(-83, 0)" fill="#1e72f9">COCKPIT Vader</text>
+<text x="549" y="556" font-size="11" fill="#1e72f9">starship</text>
+<text x="198" y="277" font-size="11" fill="#1e72f9">sit</text>
+<text x="316" y="561" font-size="11" fill="#1e72f9">moment</text>
+<text x="766" y="143" font-size="11" fill="#1e72f9">enter</text>
+<text x="409" y="105" font-size="11" fill="#1e72f9">thing</text>
+<text x="271" y="255" font-size="11" fill="#1e72f9">coming</text>
+<text x="923" y="320" font-size="11" fill="#1e72f9">Obi Wan</text>
+<text x="324" y="315" font-size="10" fill="#1e72f9">FALCON COCKPIT</text>
+<text x="470" y="802" font-size="10" transform="rotate(-90, 470, 802) translate(-83, 0)" fill="#1e72f9">LEADER COCKPIT</text>
+<text x="186" y="566" font-size="10" transform="rotate(-90, 186, 566) translate(-70, 0)" fill="#1e72f9">LEADER WING</text>
+<text x="213" y="615" font-size="10" fill="#1e72f9">planet</text>
+<text x="508" y="404" font-size="10" fill="#1e72f9">close</text>
+<text x="750" y="373" font-size="10" fill="#1e72f9">group</text>
+<text x="464" y="605" font-size="10" fill="#1e72f9">let</text>
+<text x="180" y="778" font-size="10" fill="#1e72f9">attack</text>
+<text x="748" y="440" font-size="10" transform="rotate(-90, 748, 440) translate(-34, 0)" fill="#1e72f9">Chewie</text>
+<text x="277" y="722" font-size="10" fill="#1e72f9">Princess Leia</text>
+<text x="618" y="243" font-size="10" fill="#1e72f9">MOS EISLEY</text>
+<text x="879" y="258" font-size="8" fill="#1e72f9">targeting device</text>
+<text x="485" y="92" font-size="8" fill="#1e72f9">short</text>
+<text x="629" y="534" font-size="8" fill="#1e72f9">much</text>
+<text x="699" y="622" font-size="8" fill="#1e72f9">watches</text>
+<text x="372" y="494" font-size="8" fill="#1e72f9">work</text>
+<text x="455" y="184" font-size="8" fill="#1e72f9">help</text>
+<text x="874" y="769" font-size="8" transform="rotate(-90, 874, 769) translate(-13, 0)" fill="#1e72f9">put</text>
+<text x="253" y="393" font-size="8" fill="#1e72f9">Oh</text>
+<text x="731" y="886" font-size="8" fill="#1e72f9">father</text>
+<text x="621" y="912" font-size="8" fill="#1e72f9">position</text>
+<text x="219" y="425" font-size="8" fill="#1e72f9">point</text>
+<text x="399" y="381" font-size="8" fill="#1e72f9">docking bay</text>
+<text x="520" y="690" font-size="8" fill="#1e72f9">OUTPOST WAR</text>
+<text x="1030" y="620" font-size="8" fill="#1e72f9">weapon</text>
+<text x="481" y="661" font-size="8" fill="#1e72f9">along</text>
+<text x="134" y="689" font-size="8" fill="#1e72f9">hear</text>
+<text x="835" y="416" font-size="8" fill="#1e72f9">shut</text>
+<text x="489" y="616" font-size="8" fill="#1e72f9">heard</text>
+<text x="849" y="441" font-size="8" fill="#1e72f9">last</text>
+<text x="886" y="769" font-size="8" fill="#1e72f9">even</text>
+<text x="1027" y="604" font-size="8" fill="#1e72f9">guard</text>
+<text x="443" y="254" font-size="8" fill="#1e72f9">laserbolt</text>
+<text x="590" y="810" font-size="8" fill="#1e72f9">appear</text>
+<text x="370" y="254" font-size="8" fill="#1e72f9">Artoo Detoo</text>
+<text x="578" y="109" font-size="8" fill="#1e72f9">far</text>
+<text x="381" y="737" font-size="8" fill="#1e72f9">Empire</text>
+<text x="762" y="294" font-size="8" fill="#1e72f9">enough</text>
+<text x="830" y="177" font-size="8" fill="#1e72f9">explosion</text>
+<text x="247" y="561" font-size="8" fill="#1e72f9">floor</text>
+<text x="809" y="652" font-size="8" fill="#1e72f9">follow</text>
+<text x="468" y="386" font-size="8" fill="#1e72f9">four</text>
+<text x="625" y="660" font-size="8" fill="#1e72f9">kid</text>
+<text x="504" y="916" font-size="8" fill="#1e72f9">Sandpeople</text>
+<text x="368" y="431" font-size="8" fill="#1e72f9">open</text>
+<text x="178" y="474" font-size="8" fill="#1e72f9">Jabba</text>
+<text x="575" y="645" font-size="8" fill="#1e72f9">screen</text>
+<text x="503" y="815" font-size="8" fill="#1e72f9">plan</text>
+<text x="663" y="609" font-size="8" fill="#1e72f9">explode</text>
+<text x="218" y="438" font-size="8" fill="#1e72f9">Dodonna</text>
+<text x="417" y="810" font-size="8" fill="#1e72f9">zoom</text>
+<text x="692" y="805" font-size="8" fill="#1e72f9">INTERCOM VOICE</text>
+<text x="737" y="849" font-size="8" fill="#1e72f9">COCKPIT Gold</text>
+<text x="775" y="694" font-size="8" fill="#1e72f9">firing</text>
+<text x="408" y="518" font-size="8" fill="#1e72f9">streak</text>
+<text x="271" y="560" font-size="8" fill="#1e72f9">electronic</text>
+<text x="584" y="161" font-size="8" fill="#1e72f9">boy</text>
+<text x="881" y="530" font-size="8" fill="#1e72f9">next</text>
+<text x="873" y="222" font-size="8" fill="#1e72f9">minute</text>
+<text x="886" y="700" font-size="8" fill="#1e72f9">goes</text>
+<text x="179" y="917" font-size="8" fill="#1e72f9">Commander</text>
+<text x="144" y="655" font-size="8" fill="#1e72f9">laser</text>
+<text x="634" y="553" font-size="8" fill="#1e72f9">man</text>
+<text x="1067" y="678" font-size="8" fill="#1e72f9">almost</text>
+<text x="788" y="653" font-size="8" fill="#1e72f9">tell</text>
+<text x="568" y="808" font-size="8" fill="#1e72f9">area</text>
+<text x="400" y="146" font-size="8" transform="rotate(-90, 400, 146) translate(-23, 0)" fill="#1e72f9">watch</text>
+<text x="538" y="499" font-size="8" fill="#1e72f9">formation</text>
+<text x="178" y="813" font-size="8" fill="#1e72f9">little Artoo</text>
+<text x="448" y="699" font-size="8" fill="#1e72f9">slowly</text>
+<text x="200" y="558" font-size="8" transform="rotate(-90, 200, 558) translate(-16, 0)" fill="#1e72f9">first</text>
+<text x="975" y="516" font-size="8" fill="#1e72f9">station</text>
+<text x="693" y="195" font-size="8" fill="#1e72f9">tiny</text>
+<text x="656" y="100" font-size="8" fill="#1e72f9">giant</text>
+<text x="999" y="676" font-size="8" fill="#1e72f9">better</text>
+<text x="630" y="838" font-size="8" fill="#1e72f9">DAY</text>
+<text x="633" y="847" font-size="8" transform="rotate(-90, 633, 847) translate(-22, 0)" fill="#1e72f9">speak</text>
+<text x="655" y="499" font-size="8" fill="#1e72f9">dead</text>
+<text x="510" y="708" font-size="8" fill="#1e72f9">thought</text>
+<text x="665" y="826" font-size="8" transform="rotate(-90, 665, 826) translate(-15, 0)" fill="#1e72f9">big</text>
+<text x="119" y="895" font-size="8" fill="#1e72f9">second</text>
+<text x="755" y="451" font-size="8" fill="#1e72f9">really</text>
+<text x="780" y="412" font-size="8" transform="rotate(-90, 780, 412) translate(-19, 0)" fill="#1e72f9">three</text>
+<text x="316" y="255" font-size="8" fill="#1e72f9">Sandcrawler</text>
+<text x="132" y="703" font-size="8" fill="#1e72f9">beep</text>
+<text x="862" y="377" font-size="8" fill="#1e72f9">Stay</text>
+<text x="393" y="393" font-size="8" fill="#1e72f9">arm</text>
+<text x="931" y="741" font-size="8" fill="#1e72f9">Wookiee</text>
+<text x="445" y="680" font-size="8" fill="#1e72f9">moon</text>
+<text x="971" y="431" font-size="8" fill="#1e72f9">battle station</text>
+<text x="564" y="431" font-size="8" fill="#1e72f9">LUKE Well</text>
+<text x="434" y="617" font-size="8" fill="#1e72f9">looks around</text>
+<text x="121" y="730" font-size="8" transform="rotate(-90, 121, 730) translate(-58, 0)" fill="#1e72f9">beeping sound</text>
+<text x="920" y="416" font-size="8" transform="rotate(-90, 920, 416) translate(-47, 0)" fill="#1e72f9">laser cannon</text>
+<text x="83" y="826" font-size="8" fill="#1e72f9">outside</text>
+<text x="408" y="144" font-size="8" fill="#1e72f9">corridor</text>
+<text x="718" y="558" font-size="8" fill="#1e72f9">feet</text>
+<text x="227" y="408" font-size="8" fill="#1e72f9">place</text>
+<text x="801" y="258" font-size="8" transform="rotate(-90, 801, 258) translate(-45, 0)" fill="#1e72f9">subhallway</text>
+<text x="305" y="145" font-size="8" fill="#1e72f9">rushes</text>
+<text x="494" y="191" font-size="8" fill="#1e72f9">found</text>
+<text x="577" y="191" font-size="8" fill="#1e72f9">great</text>
+<text x="414" y="315" font-size="8" fill="#1e72f9">Rebellion</text>
+<text x="289" y="318" font-size="8" transform="rotate(-90, 289, 318) translate(-12, 0)" fill="#1e72f9">cut</text>
+<text x="709" y="878" font-size="8" transform="rotate(-90, 709, 878) translate(-16, 0)" fill="#1e72f9">spot</text>
+<text x="972" y="379" font-size="8" fill="#1e72f9">jump</text>
+<text x="871" y="516" font-size="8" fill="#1e72f9">Listen</text>
+<text x="442" y="623" font-size="8" transform="rotate(-90, 442, 623) translate(-24, 0)" fill="#1e72f9">trying</text>
+<text x="251" y="623" font-size="8" transform="rotate(-90, 251, 623) translate(-22, 0)" fill="#1e72f9">never</text>
+<text x="604" y="876" font-size="8" fill="#1e72f9">need</text>
+<text x="441" y="499" font-size="8" fill="#1e72f9">Okay</text>
+<text x="810" y="805" font-size="8" fill="#1e72f9">reaches</text>
+<text x="853" y="381" font-size="8" transform="rotate(-90, 853, 381) translate(-17, 0)" fill="#1e72f9">year</text>
+<text x="155" y="734" font-size="8" fill="#1e72f9">still</text>
+<text x="786" y="365" font-size="8" fill="#1e72f9">try</text>
+<text x="137" y="666" font-size="8" fill="#1e72f9">speaker</text>
+<text x="625" y="686" font-size="8" transform="rotate(-90, 625, 686) translate(-63, 0)" fill="#1e72f9">THREEPIO Artoo</text>
+<text x="227" y="494" font-size="8" transform="rotate(-90, 227, 494) translate(-42, 0)" fill="#1e72f9">laser pistol</text>
+<text x="442" y="94" font-size="6" fill="#1e72f9">Artoo beeps</text>
+<text x="234" y="737" font-size="6" fill="#1e72f9">Wan Kenobi</text>
+<text x="962" y="568" font-size="6" fill="#1e72f9">Imperial TIE</text>
+<text x="674" y="145" font-size="6" fill="#1e72f9">FALCON GUNPORT</text>
+<text x="213" y="473" font-size="6" fill="#1e72f9">BIGGS' COCKPIT</text>
+<text x="768" y="805" font-size="6" fill="#1e72f9">STAR Three</text>
+<text x="550" y="927" font-size="6" fill="#1e72f9">main</text>
+<text x="805" y="412" font-size="6" fill="#1e72f9">battle</text>
+<text x="794" y="830" font-size="6" fill="#1e72f9">TATOOINE</text>
+<text x="218" y="276" font-size="6" fill="#1e72f9">battered</text>
+<text x="526" y="808" font-size="6" fill="#1e72f9">aim</text>
+<text x="274" y="391" font-size="6" fill="#1e72f9">moving</text>
+<text x="262" y="183" font-size="6" fill="#1e72f9">Hey</text>
+<text x="757" y="120" font-size="6" transform="rotate(-90, 757, 120) translate(-18, 0)" fill="#1e72f9">ROOM</text>
+<text x="830" y="725" font-size="6" fill="#1e72f9">lot</text>
+<text x="769" y="622" font-size="6" fill="#1e72f9">keep</text>
+<text x="495" y="379" font-size="6" transform="rotate(-90, 495, 379) translate(-27, 0)" fill="#1e72f9">anything</text>
+<text x="837" y="652" font-size="6" fill="#1e72f9">leave</text>
+<text x="601" y="559" font-size="6" fill="#1e72f9">canyon</text>
+<text x="462" y="711" font-size="6" fill="#1e72f9">quite</text>
+<text x="927" y="664" font-size="6" fill="#1e72f9">speed</text>
+<text x="397" y="605" font-size="6" fill="#1e72f9">table</text>
+<text x="547" y="566" font-size="6" fill="#1e72f9">disappear</text>
+<text x="520" y="628" font-size="6" fill="#1e72f9">use</text>
+<text x="267" y="892" font-size="6" fill="#1e72f9">Five</text>
+<text x="878" y="712" font-size="6" fill="#1e72f9">board</text>
+<text x="514" y="580" font-size="6" fill="#1e72f9">target</text>
+<text x="568" y="89" font-size="6" fill="#1e72f9">grab</text>
+<text x="513" y="721" font-size="6" transform="rotate(-90, 513, 721) translate(-21, 0)" fill="#1e72f9">R2 unit</text>
+<text x="107" y="868" font-size="6" fill="#1e72f9">Aunt Beru</text>
+<text x="1028" y="675" font-size="6" fill="#1e72f9">Ben Kenobi</text>
+<text x="691" y="499" font-size="6" fill="#1e72f9">toward Death</text>
+<text x="544" y="592" font-size="6" fill="#1e72f9">TIE ship</text>
+<text x="178" y="736" font-size="6" fill="#1e72f9">STAR MAIN</text>
+<text x="566" y="145" font-size="6" fill="#1e72f9">FORWARD BAY</text>
+<text x="640" y="805" font-size="4" fill="#1e72f9">Imperial stormtrooper</text>
+<text x="221" y="597" font-size="4" fill="#1e72f9">Rebel fighter</text>
+<text x="748" y="358" font-size="4" fill="#1e72f9">STAR TRENCH</text>
+<text x="152" y="818" font-size="4" fill="#1e72f9">struggle</text>
+<text x="851" y="184" font-size="4" fill="#1e72f9">smoke</text>
+<text x="177" y="526" font-size="4" fill="#1e72f9">near</text>
+<text x="880" y="721" font-size="4" fill="#1e72f9">horizon</text>
+<text x="565" y="109" font-size="4" fill="#1e72f9">air</text>
+<text x="642" y="654" font-size="4" fill="#1e72f9">smile</text>
+<text x="1030" y="589" font-size="4" fill="#1e72f9">sight</text>
+<text x="922" y="284" font-size="4" fill="#1e72f9">distance</text>
+<text x="600" y="821" font-size="4" fill="#1e72f9">direction</text>
+<text x="593" y="334" font-size="4" fill="#1e72f9">approaching</text>
+<text x="345" y="568" font-size="4" fill="#1e72f9">hatch</text>
+<text x="871" y="629" font-size="4" fill="#1e72f9">narrow</text>
+<text x="930" y="608" font-size="4" fill="#1e72f9">life</text>
+<text x="405" y="784" font-size="4" fill="#1e72f9">bad</text>
+<text x="435" y="602" font-size="4" fill="#1e72f9">uncle</text>
+<text x="778" y="221" font-size="4" fill="#1e72f9">blaster</text>
+<text x="974" y="501" font-size="4" fill="#1e72f9">seen</text>
+<text x="575" y="176" font-size="4" fill="#1e72f9">line</text>
+<text x="687" y="104" font-size="4" fill="#1e72f9">shoulder</text>
+<text x="510" y="651" font-size="4" fill="#1e72f9">master</text>
+<text x="722" y="883" font-size="4" transform="rotate(-90, 722, 883) translate(-16, 0)" fill="#1e72f9">become</text>
+<text x="468" y="550" font-size="4" fill="#1e72f9">range</text>
+<text x="913" y="407" font-size="4" fill="#1e72f9">cell</text>
+<text x="935" y="343" font-size="4" fill="#1e72f9">port</text>
+<text x="757" y="383" font-size="4" fill="#1e72f9">wingmen</text>
+<text x="819" y="561" font-size="4" fill="#1e72f9">REBEL BLOCKADE</text>
+<text x="297" y="403" font-size="4" fill="#1e72f9">BLOCKADE RUNNER</text>
+<text x="640" y="144" font-size="4" fill="#1e72f9">shakes head</text>
+<text x="217" y="776" font-size="4" fill="#1e72f9">old Ben</text>
+<text x="174" y="785" font-size="4" fill="#1e72f9">Rebel base</text>
+<text x="380" y="349" font-size="4" fill="#1e72f9">CONTROL ROOM</text>
+<text x="330" y="604" font-size="4" fill="#1e72f9">COCKPIT TRAVELING</text>
+<text x="253" y="862" font-size="4" fill="#1e72f9">new</text>
+<text x="872" y="537" font-size="4" fill="#1e72f9">home</text>
+<text x="488" y="319" font-size="4" fill="#1e72f9">half</text>
+<text x="164" y="773" font-size="4" transform="rotate(-90, 164, 773) translate(-12, 0)" fill="#1e72f9">Hurry</text>
+<text x="547" y="804" font-size="4" fill="#1e72f9">young</text>
+<text x="783" y="856" font-size="4" fill="#1e72f9">end</text>
+<text x="426" y="460" font-size="4" fill="#1e72f9">soldier</text>
+<text x="816" y="664" font-size="4" fill="#1e72f9">getting</text>
+<text x="975" y="328" font-size="4" transform="rotate(-90, 975, 328) translate(-12, 0)" fill="#1e72f9">course</text>
+<text x="539" y="358" font-size="4" fill="#1e72f9">worry</text>
+<text x="969" y="356" font-size="4" fill="#1e72f9">fight</text>
+<text x="462" y="719" font-size="4" fill="#1e72f9">part</text>
+<text x="127" y="731" font-size="4" fill="#1e72f9">approaches</text>
+<text x="184" y="455" font-size="4" fill="#1e72f9">sand</text>
+<text x="613" y="272" font-size="4" fill="#1e72f9">whistle</text>
+<text x="583" y="207" font-size="4" fill="#1e72f9">distant</text>
+<text x="578" y="741" font-size="4" fill="#1e72f9">left</text>
+<text x="757" y="575" font-size="4" fill="#1e72f9">might</text>
+<text x="396" y="424" font-size="4" fill="#1e72f9">bit</text>
+<text x="373" y="564" font-size="4" fill="#1e72f9">shoot</text>
+<text x="363" y="358" font-size="4" fill="#1e72f9">followed</text>
+<text x="358" y="738" font-size="4" fill="#1e72f9">Uh</text>
+<text x="803" y="837" font-size="4" transform="rotate(-90, 803, 837) translate(-14, 0)" fill="#1e72f9">hangar</text>
+<text x="375" y="140" font-size="4" fill="#1e72f9">able</text>
+<text x="632" y="117" font-size="4" fill="#1e72f9">blow</text>
+<text x="725" y="291" font-size="4" fill="#1e72f9">bartender</text>
+<text x="194" y="588" font-size="4" fill="#1e72f9">fast</text>
+<text x="401" y="797" font-size="4" fill="#1e72f9">check</text>
+<text x="466" y="727" font-size="4" transform="rotate(-90, 466, 727) translate(-18, 0)" fill="#1e72f9">GREEDO</text>
+<text x="502" y="827" font-size="4" fill="#1e72f9">green</text>
+<text x="833" y="214" font-size="4" fill="#1e72f9">crew</text>
+<text x="882" y="203" font-size="4" fill="#1e72f9">flame</text>
+<text x="651" y="480" font-size="4" fill="#1e72f9">tower</text>
+<text x="941" y="521" font-size="4" fill="#1e72f9">headset</text>
+<text x="270" y="265" font-size="4" fill="#1e72f9">Uncle Owen</text>
+<text x="445" y="511" font-size="4" transform="rotate(-90, 445, 511) translate(-24, 0)" fill="#1e72f9">HOLD AREA</text>
+<text x="518" y="511" font-size="4" fill="#1e72f9">TATOOINE MOS</text>
+<text x="848" y="451" font-size="4" fill="#1e72f9">Han Solo</text>
+<text x="85" y="833" font-size="4" fill="#1e72f9">control panel</text>
+<text x="305" y="470" font-size="4" fill="#1e72f9">Imperial fighter</text>
+<text x="231" y="210" font-size="4" fill="#1e72f9">MAIN FORWARD</text>
+<text x="446" y="156" font-size="4" transform="rotate(-90, 446, 156) translate(-18, 0)" fill="#1e72f9">three TIE</text>
+<text x="508" y="88" font-size="4" fill="#1e72f9">galaxy</text>
+<text x="590" y="620" font-size="4" fill="#1e72f9">aboard</text>
+<text x="177" y="644" font-size="4" fill="#1e72f9">human</text>
+<text x="245" y="416" font-size="4" fill="#1e72f9">rush</text>
+<text x="732" y="893" font-size="4" fill="#1e72f9">filled</text>
+<text x="775" y="731" font-size="4" fill="#1e72f9">morning</text>
+<text x="431" y="116" font-size="4" fill="#1e72f9">seven</text>
+<text x="653" y="191" font-size="4" fill="#1e72f9">Dark</text>
+<text x="365" y="746" font-size="4" fill="#1e72f9">mission</text>
+<text x="286" y="645" font-size="4" fill="#1e72f9">RED</text>
+<text x="764" y="176" font-size="4" fill="#1e72f9">call</text>
+<text x="687" y="728" font-size="4" fill="#1e72f9">talking</text>
+<text x="381" y="107" font-size="4" fill="#1e72f9">rest</text>
+<text x="666" y="344" font-size="4" fill="#1e72f9">background</text>
+<text x="524" y="323" font-size="4" fill="#1e72f9">shot</text>
+<text x="915" y="618" font-size="4" fill="#1e72f9">happened</text>
+<text x="801" y="560" font-size="4" fill="#1e72f9">came</text>
+<text x="633" y="130" font-size="4" fill="#1e72f9">low</text>
+<text x="887" y="273" font-size="4" fill="#1e72f9">gets</text>
+<text x="425" y="826" font-size="4" fill="#1e72f9">may</text>
+<text x="835" y="425" font-size="4" fill="#1e72f9">HOMESTEAD</text>
+<text x="733" y="520" font-size="4" fill="#1e72f9">quickly</text>
+<text x="383" y="460" font-size="4" fill="#1e72f9">garage</text>
+<text x="882" y="730" font-size="4" transform="rotate(-90, 882, 730) translate(-10, 0)" fill="#1e72f9">Yeah</text>
+<text x="891" y="284" font-size="4" fill="#1e72f9">trouble</text>
+<text x="470" y="371" font-size="4" fill="#1e72f9">tries</text>
+<text x="928" y="749" font-size="4" fill="#1e72f9">gone</text>
+<text x="147" y="902" font-size="4" fill="#1e72f9">yell</text>
+<text x="452" y="589" font-size="4" transform="rotate(-90, 452, 589) translate(-11, 0)" fill="#1e72f9">closer</text>
+<text x="1003" y="623" font-size="4" fill="#1e72f9">step</text>
+<text x="128" y="902" font-size="4" fill="#1e72f9">return</text>
+<text x="656" y="910" font-size="4" fill="#1e72f9">lightsaber</text>
+<text x="958" y="676" font-size="4" fill="#1e72f9">thousand</text>
+<text x="694" y="178" font-size="4" fill="#1e72f9">together</text>
+<text x="743" y="221" font-size="4" fill="#1e72f9">information</text>
+<text x="369" y="441" font-size="4" fill="#1e72f9">readout</text>
+<text x="805" y="143" font-size="4" fill="#1e72f9">ready</text>
+<text x="461" y="197" font-size="4" fill="#1e72f9">burst</text>
+<text x="855" y="775" font-size="4" transform="rotate(-90, 855, 775) translate(-14, 0)" fill="#1e72f9">enemy</text>
+<text x="844" y="244" font-size="4" fill="#1e72f9">climb</text>
+<text x="716" y="160" font-size="4" transform="rotate(-90, 716, 160) translate(-15, 0)" fill="#1e72f9">shadow</text>
+<text x="433" y="126" font-size="4" fill="#1e72f9">adjust</text>
+<text x="417" y="253" font-size="4" fill="#1e72f9">Dark Lord</text>
+<text x="450" y="666" font-size="4" fill="#1e72f9">power station</text>
+<text x="1029" y="536" font-size="4" transform="rotate(-90, 1029, 536) translate(-38, 0)" fill="#1e72f9">LARS HOMESTEAD</text>
+<text x="737" y="552" font-size="4" fill="#1e72f9">old man</text>
+<text x="523" y="101" font-size="4" fill="#1e72f9">Han Chewie</text>
+<text x="578" y="694" font-size="4" transform="rotate(-90, 578, 694) translate(-32, 0)" fill="#1e72f9">Han Chewbacca</text>
+<text x="231" y="911" font-size="4" fill="#1e72f9">SPACE TIE</text>
+<text x="941" y="626" font-size="4" fill="#1e72f9">tractor beam</text>
+<text x="664" y="618" font-size="4" transform="rotate(-90, 664, 618) translate(-35, 0)" fill="#1e72f9">GARBAGE ROOM</text>
+<text x="479" y="99" font-size="4" fill="#1e72f9">exhaust port</text>
+<text x="186" y="481" font-size="4" transform="rotate(-90, 186, 481) translate(-32, 0)" fill="#1e72f9">COCKPIT Wedge</text>
+<text x="945" y="510" font-size="4" fill="#1e72f9">ROOM Leia</text>
+<text x="649" y="506" font-size="4" fill="#1e72f9">adjusts control</text>
+<text x="820" y="710" font-size="4" fill="#1e72f9">control stick</text>
+<text x="118" y="798" font-size="4" transform="rotate(-90, 118, 798) translate(-17, 0)" fill="#1e72f9">armored</text>
+<text x="788" y="245" font-size="4" fill="#1e72f9">shaking</text>
+<text x="558" y="602" font-size="4" fill="#1e72f9">scream</text>
+<text x="535" y="632" font-size="4" fill="#1e72f9">creating</text>
+<text x="670" y="847" font-size="4" fill="#1e72f9">desert</text>
+<text x="220" y="623" font-size="4" fill="#1e72f9">white</text>
+<text x="400" y="574" font-size="4" fill="#1e72f9">Landspeeder</text>
+<text x="481" y="251" font-size="4" fill="#1e72f9">leaving</text>
+<text x="679" y="557" font-size="4" fill="#1e72f9">quiet</text>
+<text x="490" y="549" font-size="4" fill="#1e72f9">heading</text>
+<text x="920" y="680" font-size="4" fill="#1e72f9">bring</text>
+<text x="858" y="528" font-size="4" fill="#1e72f9">set</text>
+<text x="960" y="645" font-size="4" fill="#1e72f9">told</text>
+<text x="910" y="701" font-size="4" fill="#1e72f9">yelling</text>
+<text x="851" y="458" font-size="4" fill="#1e72f9">easy</text>
+<text x="856" y="693" font-size="4" fill="#1e72f9">nothing</text>
+<text x="613" y="569" font-size="4" fill="#1e72f9">made</text>
+<text x="570" y="507" font-size="4" fill="#1e72f9">reply</text>
+<text x="387" y="500" font-size="4" transform="rotate(-90, 387, 500) translate(-7, 0)" fill="#1e72f9">pay</text>
+<text x="1015" y="739" font-size="4" fill="#1e72f9">said</text>
+<text x="236" y="503" font-size="4" fill="#1e72f9">best</text>
+<text x="352" y="484" font-size="4" fill="#1e72f9">strange</text>
+<text x="998" y="627" font-size="4" transform="rotate(-90, 998, 627) translate(-17, 0)" fill="#1e72f9">approach</text>
+<text x="655" y="178" font-size="4" fill="#1e72f9">pop</text>
+<text x="388" y="174" font-size="4" transform="rotate(-90, 388, 174) translate(-8, 0)" fill="#1e72f9">edge</text>
+<text x="1026" y="746" font-size="4" fill="#1e72f9">blue</text>
+<text x="621" y="336" font-size="4" fill="#1e72f9">lost</text>
+<text x="969" y="731" font-size="4" fill="#1e72f9">center</text>
+<text x="322" y="547" font-size="4" fill="#1e72f9">mind</text>
+<text x="164" y="912" font-size="4" fill="#1e72f9">bar</text>
+<text x="901" y="484" font-size="4" fill="#1e72f9">massive</text>
+<text x="316" y="582" font-size="4" fill="#1e72f9">view</text>
+<text x="324" y="619" font-size="4" transform="rotate(-90, 324, 619) translate(-10, 0)" fill="#1e72f9">walk</text>
+<text x="656" y="195" font-size="4" transform="rotate(-90, 656, 195) translate(-21, 0)" fill="#1e72f9">everything</text>
+<text x="926" y="327" font-size="4" fill="#1e72f9">corner</text>
+<text x="539" y="170" font-size="4" fill="#1e72f9">button</text>
+<text x="569" y="923" font-size="4" fill="#1e72f9">transmission</text>
+<text x="246" y="658" font-size="4" transform="rotate(-90, 246, 658) translate(-14, 0)" fill="#1e72f9">twenty</text>
+<text x="836" y="162" font-size="4" fill="#1e72f9">round</text>
+<text x="456" y="529" font-size="4" transform="rotate(-90, 456, 529) translate(-13, 0)" fill="#1e72f9">charge</text>
+<text x="499" y="198" font-size="4" fill="#1e72f9">helmet</text>
+<text x="237" y="862" font-size="4" fill="#1e72f9">copy</text>
+<text x="305" y="181" font-size="4" fill="#1e72f9">cover</text>
+<text x="265" y="899" font-size="4" fill="#1e72f9">peel</text>
+<text x="823" y="733" font-size="4" fill="#1e72f9">Lord Vader</text>
+<text x="169" y="564" font-size="4" transform="rotate(-90, 169, 564) translate(-35, 0)" fill="#1e72f9">TATOOINE ROCK</text>
+</svg>
