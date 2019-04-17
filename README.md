@@ -79,8 +79,7 @@ An extra function `to_svg()` was added and placed before `to_img()`. `to_svg()` 
     
 ```
 
-Download a_new_hope.txt and stormtrooper_mask.png.
-The python script is modified to download the ttf file from google's github storage.
+I modified the python script `a_new_hope.py`. Instead of relying on local storage of the source text, image mask, and font file, they are downloaded from github using the python `tempfile` module. This is for the sake of convenience in testing it on different machines. The script also prints out the SVG opening and closing tags and assorted styles and font specifications - it would obviously make more sense to do that inside the wordcloud code, but that would require passing extra arguments and thus modifying the code further. My intent was to do as much as possible while making the bare minimum changes. 
 
 ```python
 #!/usr/bin/env python
@@ -103,14 +102,12 @@ from wordcloud import WordCloud, STOPWORDS
 from tempfile import NamedTemporaryFile
 import urllib
 
-"""
-Used while figuring out text placement - was useful to 
-highlight words by whether or not they had letters with
-ascenders, descenders, or not, etc. The classification is
-rough-and-ready because, for example, depending on the
-typeface, letters such as uppercase Q and Z may have 
-descenders.
-"""
+# Used while figuring out text placement - was useful to 
+# highlight words by whether or not they had letters with
+# ascenders, descenders, or not, etc. The classification is
+# rough-and-ready because, for example, depending on the
+# typeface, letters such as uppercase Q and Z may have 
+# descenders. 
 def red_color_func(word, font_size, position, orientation, random_state=None,
                     **kwargs):
     ascenders = set('bdfhijkltABCDEDFGHIJKLMNOPQRSTUVWXYZ') 
@@ -125,31 +122,21 @@ def grey_color_func(word, font_size, position, orientation, random_state=None,
                     **kwargs):
     return "hsl(0, 0%%, %d%%)" % random.randint(60, 100)
 
+# Adobe Illustrator doesn't recognize hsl(), so...
+def RGB_grey_color_func(word, font_size, position, orientation, random_state=None,
+                    **kwargs):
+    return "rgb({0}, {0}, {0})".format(random.randint(128, 255))
 
 # get data directory (using getcwd() is needed to support running example in generated IPython notebook)
 d = path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 
-# read the mask image taken from
-# http://www.stencilry.org/stencils/movies/star%20wars/storm-trooper.gif
-mask = np.array(Image.open(path.join(d, "stormtrooper_mask.png")))
-
-# movie script of "a new hope"
-# http://www.imsdb.com/scripts/Star-Wars-A-New-Hope.html
-# May the lawyers deem this fair use.
-text = open(path.join(d, 'a_new_hope.txt')).read()
-
-# pre-processing the text a little bit
-text = text.replace("HAN", "Han")
-text = text.replace("LUKE'S", "Luke")
-
-# adding movie script specific stopwords
-stopwords = set(STOPWORDS)
-stopwords.add("int")
-stopwords.add("ext")
-
 # dictionary of typefaces to play around with
 theFonts = {
         'Roboto':['https://github.com/google/fonts/blob/master/apache/roboto/Roboto-Regular.ttf','https://fonts.googleapis.com/css?family=Roboto', '\'Roboto\''],
+    
+        'Roboto Slab':['https://github.com/googlefonts/robotoslab/blob/master/fonts/static/RobotoSlab-Regular.ttf','https://fonts.googleapis.com/css?family=Roboto+Slab', '\'Roboto Slab\', serif'],
+     
+        'Roboto Slab Bold':['https://github.com/googlefonts/robotoslab/blob/master/fonts/static/RobotoSlab-Bold.ttf','https://fonts.googleapis.com/css?family=Roboto+Slab:700', '\'Roboto Slab\', serif'],
         
         'Press Start 2p':['https://github.com/google/fonts/blob/master/ofl/pressstart2p/PressStart2P-Regular.ttf', 'https://fonts.googleapis.com/css?family=Press+Start+2P', '\'Press Start 2p\', cursive'],
            
@@ -199,39 +186,87 @@ theFonts = {
 
 #        '':['', '', ''],
            }
+'''
+Stalinist One typeface doesn't print regular spaces - specifically the "advance" for a regular space (Unicode 0020 )
+is 0 - although they are rendered in SVG
+
+Black Ops One has a reported bug that affects uppercase "R"
+https://github.com/google/fonts/issues/1131
+'''
 
 Typeface = 'Roboto'
 github_font_URL = theFonts[Typeface][0] + '?raw=true'
 google_font_URL = theFonts[Typeface][1]
 google_font_family = theFonts[Typeface][2]
 
+github_mask_URL = 'https://github.com/amueller/word_cloud/blob/master/examples/stormtrooper_mask.png' + '?raw=true'
+github_text_URL = 'https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.txt' + '?raw=true'
+
 fontFILE = NamedTemporaryFile(delete=False, suffix='.ttf')
 response = urllib.request.urlopen(github_font_URL)
 fontFILE.write(response.read())
 fontFILE.close()
 
-#should match dimensions of mask
+maskFILE = NamedTemporaryFile(delete=False, suffix='.png')
+response = urllib.request.urlopen(github_mask_URL)
+maskFILE.write(response.read())
+maskFILE.close()
+
+textFILE = NamedTemporaryFile(delete=False, suffix='.txt')
+response = urllib.request.urlopen(github_text_URL)
+textFILE.write(response.read())
+textFILE.close()
+
+# should match dimensions of mask image
 Height = 1028
 Width = 1190
-Background_Color = 'white'
+Background_Color = 'black'
 
-# Could also set the background this way
-# but the entire browser page will be colored.
-# Using a colored rect shows the size of your
-# svg element - which is useful for some purposes
-#svg { background-color: YOUR_COLOR_HERE; }
+# read the mask image taken from
+# http://www.stencilry.org/stencils/movies/star%20wars/storm-trooper.gif
+mask = np.array(Image.open(maskFILE.name))
 
+# movie script of "a new hope"
+# http://www.imsdb.com/scripts/Star-Wars-A-New-Hope.html
+# May the lawyers deem this fair use.
+text = open(textFILE.name).read()
+
+# pre-processing the text a little bit
+text = text.replace("HAN", "Han")
+text = text.replace("LUKE'S", "Luke")
+
+# adding movie script specific stopwords
+stopwords = set(STOPWORDS)
+stopwords.add("int")
+stopwords.add("ext")
+
+'''
+The background color could be set in the svg style element.
+
+svg { background-color: YOUR_COLOR_HERE; }
+
+But the entire browser page will be colored.
+Using a colored rect shows the size of your
+svg element - which is useful verifying that your 
+element is large enough to not clip the text.
+
+useful references 
+https://www.w3.org/TR/css-fonts-3/#font-kerning-prop
+https://www.w3.org/TR/css-fonts-3/#font-variant-ligatures-prop
+https://helpx.adobe.com/illustrator/using/line-character-spacing.html#kern_and_track
+'''
 print ("""<svg width="{0}" height="{1}" xmlns="http://www.w3.org/2000/svg">
     <defs><style type="text/css">
     @import url("{2}");
     text {% raw %}{{{% endraw %}font-family: {3};
+    font-kerning:none;
     font-variant-ligatures:none{% raw %}}}{% endraw %}
     </style></defs>""".format(Width, Height, google_font_URL, google_font_family))
 
-# SVG background rectangle
+# SVG background rectangle - not necessary if background is white.
 print ("<rect width=\"100%\" height=\"100%\" fill=\"{}\"/>".format(Background_Color))
 
-wc = WordCloud(max_words=1000, mask=mask, stopwords=stopwords, margin=10, font_path=fontFILE.name, color_func=red_color_func, background_color = Background_Color, random_state=1).generate(text)
+wc = WordCloud(max_words=1000, mask=mask, stopwords=stopwords, margin=10, font_path=fontFILE.name, color_func=grey_color_func, background_color=Background_Color, random_state=1).generate(text)
 
 print ('</svg>')
 
