@@ -85,7 +85,7 @@ Add this function - `to_svg()` - before `to_img()` (not that it has to be in tha
                
             """
             this is all it takes to transform x,y to svg space 
-            it was arrived at using the same skills required of computer graphics programmers
+            it was arrived at using the methods of computer graphics programmers
             https://twitter.com/erkaman2/status/1104105232034861056
             """
             if orientation is None:
