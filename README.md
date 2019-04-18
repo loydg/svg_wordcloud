@@ -104,8 +104,6 @@ Add this function - `to_svg()` - before `to_img()` (not that it has to be in tha
     
 ```
 
-I modified the python script `a_new_hope.py`. Instead of relying on local storage of the source text, image mask, and font file, they are downloaded from github using the python `tempfile` module. This is for the sake of convenience in testing it on different machines with a variety of typefaces. Changing it to use local files is trivial - in addition to specifying the path to the local font file, you would remove the ` @import url(some_font_URL);` from the SVG header. You will still need the `text { {font-family: {3};` code though.
+I modified the python script `a_new_hope.py`. Instead of relying on local storage of the source text, image mask, and font file, they are downloaded from github using the python `tempfile` module. This is for the sake of convenience in testing it on different machines with a variety of typefaces. Changing it to use local files is trivial - in addition to specifying the path to the local font file, you would remove the `@import url("{2}")` from the SVG header. You will still need the `font-family: {3}` code though.
 
 If you want to host the SVG on a website, the style element will require a font file in a WOFF format - which is what google font provides. ...I NEED TO ELABORATE ON THIS... 
-
-
