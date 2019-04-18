@@ -26,7 +26,7 @@ Requirements
 * Anaconda with Python3
 * Create environment *wordcloud*
 * Activate environment *wordcloud*
-* Install *matplotlib* and *wordcloud* 
+* Install *matplotlib* and *wordcloud* modules
 * modify *your_local_directory/anaconda3/envs/wordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py* as described below
 
 Add a single line - `self.to_svg()` - to `generate_from_text()`.
