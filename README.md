@@ -12,7 +12,7 @@ Some examples to demonstrate that it really does work.
 [black_ops_one.svg](https://loydg.github.io/gh_pages/examples/black_ops_one.svg), 
 [press_start_2p.svg](https://loydg.github.io/gh_pages/examples/press_start_2p.svg)
 
-Some more examples. This time the PNG output is generated with red text and the SVG output is generated with blue text. The two are then stacked and the *mix-blend-mode* set to *multiply*. The two circles show the individual text colors and the resulting color when they overlap.
+Some more examples. This time the PNG output is generated with red text and the SVG output is generated with blue text. In an HTML file, the results are then stacked and the *mix-blend-mode* set to *multiply*. The two circles show the individual text colors and the resulting color when they overlap.
 
 [Amatic SC Bold](https://loydg.github.io/gh_pages/amatic_sc_bold_overlay.html), 
 [Crushed](https://loydg.github.io/gh_pages/crushed_overlay.html), 
