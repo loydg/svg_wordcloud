@@ -14,13 +14,14 @@ Some examples to demonstrate that it really does work.
 
 Requirements
 * Anaconda with Python3
-* Create environment wordcloud
-* Install matplotlib and wordcloud
-* modify your_local_directory/anaconda3/envs/wordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py as described below
+* Create environment *wordcloud*
+* Activate environment *wordcloud*
+* Install *matplotlib* and *wordcloud* 
+* modify *your_local_directory/anaconda3/envs/wordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py* as described below
 
-Suggestion for how to go about it - Install Anaconda. Create an environment named wordcloud. 
 A single line - `self.to_svg()` was added to `generate_from_text()`.
 Here is the complete code for `generate_from_text()`. The additional line is before the return call.
+
 ```python
     def generate_from_text(self, text):
         """Generate wordcloud from text.
