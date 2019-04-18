@@ -19,7 +19,7 @@ Requirements
 * Install *matplotlib* and *wordcloud* 
 * modify *your_local_directory/anaconda3/envs/wordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py* as described below
 
-A single line - `self.to_svg()` was added to `generate_from_text()`.
+Add a single line - `self.to_svg()` to `generate_from_text()`.
 Here is the complete code for `generate_from_text()`. The additional line is before the return call.
 
 ```python
@@ -46,7 +46,8 @@ Here is the complete code for `generate_from_text()`. The additional line is bef
         return self
 ```
 
-An extra function `to_svg()` was added and placed before `to_img()`. `to_svg()` prints the words in the layout as SVG to standard output - just the words not the opening/closing `<svg><style></style>...</svg>` elements.
+Add this function `to_svg()` before `to_img()` (not that it has to be in that particular location - it's just where I placed it). 
+`to_svg()` prints the words in the layout as SVG to standard output - just the words not the opening/closing `<svg><style></style>...</svg>` elements.
 
 ```python
     def to_svg(self):
