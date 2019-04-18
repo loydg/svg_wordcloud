@@ -12,6 +12,16 @@ Some examples to demonstrate that it really does work.
 [black_ops_one.svg](https://loydg.github.io/gh_pages/examples/black_ops_one.svg), 
 [press_start_2p.svg](https://loydg.github.io/gh_pages/examples/press_start_2p.svg)
 
+Some more examples. This time the PNG output is generated with red text and the SVG output is generated with blue text. The two are then stacked and the *mix-blend-mode* set to *multiply*. The two circles show the individual text colors and the resulting color when they overlap.
+
+[Amatic SC Bold](https://loydg.github.io/gh_pages/amatic_sc_bold_overlay.html), 
+[Crushed](https://loydg.github.io/gh_pages/crushed_overlay.html), 
+[Mountains of Christmas](https://loydg.github.io/gh_pages/mountains_of_christmas_overlay.html), 
+[Permanent Marker](https://loydg.github.io/gh_pages/permanent_marker_overlay.html), 
+[Roboto Slab Bold](https://loydg.github.io/gh_pages/roboto_slab_bold_overlay.html), 
+[Stalinist One](https://loydg.github.io/gh_pages/stalinist_one_overlay.html), 
+[Syncopate Bold](https://loydg.github.io/gh_pages/syncopate_bold_overlay.html), 
+
 Requirements
 * Anaconda with Python3
 * Create environment *wordcloud*
