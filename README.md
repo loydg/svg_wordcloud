@@ -1,5 +1,5 @@
 # gh_pages
-A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output.
+A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output while making the bare minimum changes to the code.
 
 Some examples to demonstrate that it really does work.
 
