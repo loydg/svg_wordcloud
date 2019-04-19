@@ -1,7 +1,7 @@
 # gh_pages
 A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output while making the bare minimum changes to the code.
 
-Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://amueller.github.io/word_cloud/auto_examples/a_new_hope.html#sphx-glr-auto-examples-a-new-hope-py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com.
+Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com.
 
 [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
 [amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg), 
