@@ -62,8 +62,8 @@ Here is the complete code for `generate_from_text()`. The additional line is bef
         return self
 ```
 
-Add this function - `to_svg()` - before `to_img()` (not that it has to be in that particular location - it's just where I placed it). 
-`to_svg()` prints the words in the layout as SVG to standard output - just the words not the opening/closing `<svg><style></style>...</svg>` elements.
+* Add this function - `to_svg()` - before `to_img()` (not that it has to be in that particular location - it's just where I placed it). 
+* `to_svg()` prints the words in the layout as SVG to standard output - just the words not the opening/closing `<svg><style></style>...</svg>` elements.
 
 ```python
     def to_svg(self):
