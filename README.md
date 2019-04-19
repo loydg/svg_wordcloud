@@ -24,7 +24,8 @@ Some more examples. This time the PNG output is generated with red text and the 
 [Permanent Marker](https://loydg.github.io/gh_pages/permanent_marker_overlay.html), 
 [Roboto Slab Bold](https://loydg.github.io/gh_pages/roboto_slab_bold_overlay.html), 
 [Stalinist One](https://loydg.github.io/gh_pages/stalinist_one_overlay.html), 
-[Syncopate Bold](https://loydg.github.io/gh_pages/syncopate_bold_overlay.html)
+[Syncopate Bold](https://loydg.github.io/gh_pages/syncopate_bold_overlay.html),
+[WeePeople](https://loydg.github.io/gh_pages/weepeople_overlay.html)
 
 Requirements
 * Anaconda with Python3
