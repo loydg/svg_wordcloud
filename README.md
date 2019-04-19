@@ -113,21 +113,23 @@ The examples at the top of the page were produced with this script [svg_a_new_ho
 
 When run, it will output an SVG wordcloud using the Roboto typeface (after you close the image preview window). So I'd suggest running it as:
 
-python svg_a_new_hope_net.py >roboto.svg
+```python svg_a_new_hope_net.py >roboto.svg```
 
-Several other typefaces can be chosen. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the svg text to blue and the png text to red.
+Several other typefaces can be chosen. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the SVG text to blue and the PNG text to red.
 
-The Output can also be opened by Adobe Illustrator, Affinity Designer or Inkscape - but IF you have the font installed on your machine. BUT...
+The Output can also be opened by Adobe Illustrator, Affinity Designer or Inkscape - **IF** you have the font installed on your machine. **BUT**...
 
 Inkscape ignores the font-weight set in the SVG. You'd probably have to write a Python plugin to fix that. So if you're using Inkscape, only make wordclouds with normal weight fonts.
 
 Adobe Illustrator and Affinity Designer both ignore the ligature and kernings settings. For both applications, you can box select all the text and set the kerning to 0; In Affinity Designer, you can turn off ligatures in the same panel that lets you zero out kerning. Adobe Illustrator allows you to turn off the ligatures for OpenType fonts but not TrueType fonts. So in Illustrator you have to do the clumsy work-around of box selecting the text, changing it to an OpenType font (Myriad Pro happens to be the first one that appears for me), turn off ligatures, then change the font back to the original TrueType font - Illustrator "remembers" the ligature settings. I don't know how Inkscape handles this - but I wouldn't expect much.
 
-If you want to reproduce the wordcloud vesions from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_local.py). The machine(Ubuntu-ish) I tested it on had the following font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf.
+If you want to produce output from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_local.py). The machine(Ubuntu-ish) I tested it on had the following font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf.
 
-So I would type python svg_a_new_hope_local.py>roboto_slab.svg
+So I would type ```python svg_a_new_hope_local.py>roboto_slab_bold.svg```
 
-You will need to edit the font file location according to your machine. Also remember that if your intention is to open the output in something like Illustrator, you need to specify fonts that are in your system path or one of the other specific places that the application looks for font files, as opposed to some random folder where you may have squirreled away downloads.
+You will need to edit the font file location according to your machine. Also remember that if your intention is to open the output in something like Adobe Illustrator, you need to specify fonts that are in your system path or one of the other specific places that the application looks for font files, as opposed to some random folder where you may have squirreled away downloads.
+
+In my case, I had the difficulties mentioned above when opening it in Inkscape, so I transfered it to my Mac and opened it in Affinity Designer. Here's a [screenshot](get the link)
 
 
 
