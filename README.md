@@ -1,7 +1,7 @@
 # gh_pages
 A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output while making the bare minimum changes to the code.
 
-Some examples to demonstrate that it really does work.
+Some examples to demonstrate that it really does work. These fonts are from https://fonts.google.com
 
 [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
 [amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg), 
@@ -11,6 +11,10 @@ Some examples to demonstrate that it really does work.
 [stalinist_one.svg](https://loydg.github.io/gh_pages/examples/stalinist_one.svg), 
 [black_ops_one.svg](https://loydg.github.io/gh_pages/examples/black_ops_one.svg), 
 [press_start_2p.svg](https://loydg.github.io/gh_pages/examples/press_start_2p.svg)
+
+This example uses a font from Propublica. https://github.com/propublica/weepeople
+
+[weepeople.svg](https://loydg.github.io/gh_pages/examples/weepeople.svg)
 
 Some more examples. This time the PNG output is generated with red text and the SVG output is generated with blue text. In an HTML file, the results are then stacked and the *mix-blend-mode* set to *multiply*. The two circles show the individual text colors and the resulting color when they overlap.
 
