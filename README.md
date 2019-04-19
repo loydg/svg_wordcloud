@@ -29,10 +29,10 @@ Some more examples. This time the PNG output is generated with red text and the 
 
 Requirements/Steps
 * Install Anaconda with Python3 if you don't already have it
-* Create environment *wordcloud*
-* Activate environment *wordcloud*
+* Create environment *svgwordcloud*
+* Activate environment *svgwordcloud*
 * Install *matplotlib* and *wordcloud* modules
-* modify *your_directory/anaconda3/envs/wordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py* as described below
+* modify *your_directory/anaconda3/envs/svgwordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py* as described below
 
 Add a single line - `self.to_svg()` - to `generate_from_text()`.
 Here is the complete code for `generate_from_text()`. The additional line is before the return call.
@@ -109,4 +109,12 @@ Add this function - `to_svg()` - before `to_img()` (not that it has to be in tha
     
 ```
 
-The examples at the top of the page were produced with this script [svg_a_new_hope_net.py](put link here)
+The examples at the top of the page were produced with this script [svg_a_new_hope_net.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_net.py). It requires an internet connection.
+
+When run, it will output an SVG wordcloud using the Roboto typeface (after you close the image preview window). So I'd suggest running it as:
+
+python svg_a_new_hope_net.py >roboto.svg
+
+Several other typefaces can be chosen. To produce the output for the overlay examples modify the script as follows - set the background color to white, set the svg text to blue and the png text to red.
+
+
