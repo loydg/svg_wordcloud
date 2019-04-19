@@ -1,7 +1,7 @@
 # gh_pages
 A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output while making the bare minimum changes to the code.
 
-Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com. 
+Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com. I've tested them in Firefox, Chrome, and Safari on OSX, iOS POP!os(a variant of Ubuntu) and Windows and they worked ok. You can click within the svg and search for words - even on an iPhone (search within a webpage is located under the sharing button).
 
 [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
 [amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg), 
@@ -115,6 +115,20 @@ When run, it will output an SVG wordcloud using the Roboto typeface (after you c
 
 python svg_a_new_hope_net.py >roboto.svg
 
-Several other typefaces can be chosen. To produce the output for the overlay examples modify the script as follows - set the background color to white, set the svg text to blue and the png text to red.
+Several other typefaces can be chosen. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the svg text to blue and the png text to red.
+
+The Output can also be opened by Adobe Illustrator, Affinity Designer or Inkscape - but IF you have the font installed on your machine. BUT...
+
+Inkscape ignores the font-weight set in the SVG. You'd probably have to write a Python plugin to fix that. So if you're using Inkscape, only make wordclouds with normal weight fonts.
+
+Adobe Illustrator and Affinity Designer both ignore the ligature and kernings settings. For both applications, you can box select all the text and set the kerning to 0; In Affinity Designer, you can turn off ligatures in the same panel that lets you zero out kerning. Adobe Illustrator allows you to turn off the ligatures for OpenType fonts but not TrueType fonts. So in Illustrator you have to do the clumsy work-around of box selecting the text, changing it to an OpenType font (Myriad Pro happens to be the first one that appears for me), turn off ligatures, then change the font back to the original TrueType font - Illustrator "remembers" the ligature settings. I don't know how Inkscape handles this - but I wouldn't expect much.
+
+If you want to reproduce the wordcloud vesions from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_local.py). The machine(Ubuntu-ish) I tested it on had the following font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf.
+
+So I would type python svg_a_new_hope_local.py>roboto_slab.svg
+
+You will need to edit the font file location according to your machine. Also remember that if your intention is to open the output in something like Illustrator, you need to specify fonts that are in your system path or one of the other specific places that the application looks for font files, as opposed to some random folder where you may have squirreled away downloads.
+
+
 
 
