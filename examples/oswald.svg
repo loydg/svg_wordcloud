@@ -1,0 +1,567 @@
+<svg width="1190" height="1028" xmlns="http://www.w3.org/2000/svg">
+    <defs><style type="text/css">
+    @import url("https://fonts.googleapis.com/css?family=Oswald:500");
+    text {font-family: 'Oswald', sans-serif;
+    font-kerning:none;
+    font-variant-ligatures:none}
+    </style></defs>
+<rect width="100%" height="100%" fill="black"/>
+<text x="435" y="763" font-size="119" fill="hsl(0, 0%, 86%)">Luke</text>
+<text x="546" y="524" font-size="85" fill="hsl(0, 0%, 90%)">Han</text>
+<text x="319" y="205" font-size="82" fill="hsl(0, 0%, 83%)">DEATH STAR</text>
+<text x="715" y="532" font-size="77" transform="rotate(-90, 715, 532) translate(-292, 0)" fill="hsl(0, 0%, 97%)">THREEPIO</text>
+<text x="861" y="512" font-size="68" fill="hsl(0, 0%, 70%)">Ben</text>
+<text x="291" y="683" font-size="59" fill="hsl(0, 0%, 62%)">ship</text>
+<text x="129" y="727" font-size="57" fill="hsl(0, 0%, 81%)">Leia</text>
+<text x="267" y="423" font-size="54" fill="hsl(0, 0%, 69%)">one</text>
+<text x="633" y="259" font-size="52" fill="hsl(0, 0%, 85%)">look</text>
+<text x="762" y="567" font-size="52" transform="rotate(-90, 762, 567) translate(-244, 0)" fill="hsl(0, 0%, 64%)">RED LEADER</text>
+<text x="741" y="201" font-size="51" fill="hsl(0, 0%, 76%)">Artoo</text>
+<text x="514" y="405" font-size="50" transform="rotate(-90, 514, 405) translate(-94, 0)" fill="hsl(0, 0%, 77%)">back</text>
+<text x="896" y="581" font-size="49" fill="hsl(0, 0%, 69%)">move</text>
+<text x="971" y="702" font-size="47" fill="hsl(0, 0%, 89%)">going</text>
+<text x="294" y="596" font-size="46" fill="hsl(0, 0%, 99%)">two</text>
+<text x="402" y="369" font-size="46" transform="rotate(-90, 402, 369) translate(-99, 0)" fill="hsl(0, 0%, 86%)">Biggs</text>
+<text x="93" y="791" font-size="40" fill="hsl(0, 0%, 98%)">TIE fighter</text>
+<text x="795" y="595" font-size="39" fill="hsl(0, 0%, 71%)">Vader</text>
+<text x="866" y="718" font-size="38" transform="rotate(-90, 866, 718) translate(-49, 0)" fill="hsl(0, 0%, 62%)">see</text>
+<text x="240" y="239" font-size="38" fill="hsl(0, 0%, 86%)">MILLENNIUM FALCON</text>
+<text x="446" y="404" font-size="37" transform="rotate(-90, 446, 404) translate(-99, 0)" fill="hsl(0, 0%, 68%)">toward</text>
+<text x="380" y="616" font-size="37" fill="hsl(0, 0%, 67%)">right</text>
+<text x="836" y="408" font-size="37" fill="hsl(0, 0%, 71%)">Luke WING</text>
+<text x="605" y="888" font-size="37" fill="hsl(0, 0%, 62%)">come</text>
+<text x="259" y="611" font-size="37" transform="rotate(-90, 259, 611) translate(-107, 0)" fill="hsl(0, 0%, 67%)">trooper</text>
+<text x="889" y="723" font-size="36" fill="hsl(0, 0%, 90%)">robot</text>
+<text x="294" y="354" font-size="36" fill="hsl(0, 0%, 67%)">small</text>
+<text x="688" y="863" font-size="35" fill="hsl(0, 0%, 79%)">SPACE</text>
+<text x="446" y="802" font-size="34" fill="hsl(0, 0%, 85%)">now</text>
+<text x="443" y="115" font-size="34" fill="hsl(0, 0%, 76%)">WING FIGHTER</text>
+<text x="582" y="604" font-size="34" fill="hsl(0, 0%, 66%)">take</text>
+<text x="727" y="251" font-size="34" fill="hsl(0, 0%, 71%)">begin</text>
+<text x="789" y="632" font-size="34" fill="hsl(0, 0%, 71%)">make</text>
+<text x="577" y="659" font-size="33" fill="hsl(0, 0%, 68%)">away</text>
+<text x="576" y="799" font-size="33" fill="hsl(0, 0%, 85%)">fire</text>
+<text x="97" y="831" font-size="33" fill="hsl(0, 0%, 91%)">will</text>
+<text x="533" y="558" font-size="33" fill="hsl(0, 0%, 86%)">turn</text>
+<text x="459" y="647" font-size="33" fill="hsl(0, 0%, 89%)">stand</text>
+<text x="203" y="453" font-size="30" fill="hsl(0, 0%, 68%)">stormtrooper</text>
+<text x="782" y="763" font-size="29" fill="hsl(0, 0%, 77%)">way</text>
+<text x="480" y="524" font-size="29" fill="hsl(0, 0%, 61%)">side</text>
+<text x="881" y="608" font-size="29" fill="hsl(0, 0%, 96%)">COCKPIT Luke</text>
+<text x="730" y="138" font-size="29" fill="hsl(0, 0%, 83%)">sir</text>
+<text x="675" y="484" font-size="29" fill="hsl(0, 0%, 84%)">think</text>
+<text x="802" y="773" font-size="29" transform="rotate(-90, 802, 773) translate(-54, 0)" fill="hsl(0, 0%, 71%)">head</text>
+<text x="423" y="632" font-size="29" transform="rotate(-90, 423, 632) translate(-157, 0)" fill="hsl(0, 0%, 90%)">DARTH VADER</text>
+<text x="878" y="536" font-size="24" fill="hsl(0, 0%, 91%)">GOLD LEADER</text>
+<text x="744" y="413" font-size="24" fill="hsl(0, 0%, 72%)">huge</text>
+<text x="636" y="115" font-size="24" fill="hsl(0, 0%, 75%)">got</text>
+<text x="810" y="809" font-size="24" fill="hsl(0, 0%, 78%)">us</text>
+<text x="595" y="560" font-size="24" fill="hsl(0, 0%, 77%)">time</text>
+<text x="810" y="228" font-size="24" fill="hsl(0, 0%, 70%)">computer</text>
+<text x="558" y="244" font-size="24" fill="hsl(0, 0%, 66%)">several</text>
+<text x="278" y="619" font-size="24" fill="hsl(0, 0%, 64%)">Rebel</text>
+<text x="878" y="431" font-size="24" fill="hsl(0, 0%, 84%)">know</text>
+<text x="203" y="461" font-size="24" transform="rotate(-90, 203, 461) translate(-104, 0)" fill="hsl(0, 0%, 71%)">Chewbacca</text>
+<text x="267" y="717" font-size="20" fill="hsl(0, 0%, 94%)">SURFACE DEATH</text>
+<text x="403" y="112" font-size="20" fill="hsl(0, 0%, 91%)">long</text>
+<text x="616" y="845" font-size="20" fill="hsl(0, 0%, 66%)">OFFICER</text>
+<text x="733" y="435" font-size="20" fill="hsl(0, 0%, 87%)">across</text>
+<text x="212" y="260" font-size="20" fill="hsl(0, 0%, 74%)">OWEN</text>
+<text x="148" y="661" font-size="20" fill="hsl(0, 0%, 75%)">pirateship</text>
+<text x="430" y="823" font-size="20" fill="hsl(0, 0%, 95%)">something</text>
+<text x="916" y="270" font-size="20" fill="hsl(0, 0%, 69%)">go</text>
+<text x="506" y="790" font-size="20" fill="hsl(0, 0%, 70%)">control</text>
+<text x="673" y="278" font-size="18" fill="hsl(0, 0%, 90%)">FIGHTER COCKPIT</text>
+<text x="874" y="753" font-size="18" fill="hsl(0, 0%, 97%)">behind</text>
+<text x="717" y="167" font-size="18" fill="hsl(0, 0%, 91%)">hit</text>
+<text x="233" y="888" font-size="18" fill="hsl(0, 0%, 84%)">light</text>
+<text x="512" y="914" font-size="18" fill="hsl(0, 0%, 77%)">WING COCKPIT</text>
+<text x="473" y="673" font-size="18" fill="hsl(0, 0%, 97%)">Imperial</text>
+<text x="617" y="460" font-size="18" fill="hsl(0, 0%, 83%)">around</text>
+<text x="760" y="380" font-size="18" fill="hsl(0, 0%, 87%)">Suddenly</text>
+<text x="687" y="884" font-size="18" fill="hsl(0, 0%, 86%)">troops</text>
+<text x="705" y="492" font-size="18" transform="rotate(-90, 705, 492) translate(-24, 0)" fill="hsl(0, 0%, 90%)">eye</text>
+<text x="534" y="429" font-size="18" fill="hsl(0, 0%, 70%)">start</text>
+<text x="910" y="455" font-size="18" fill="hsl(0, 0%, 93%)">TARKIN</text>
+<text x="294" y="375" font-size="18" fill="hsl(0, 0%, 71%)">Luke look</text>
+<text x="1011" y="648" font-size="18" fill="hsl(0, 0%, 68%)">hand</text>
+<text x="372" y="354" font-size="18" fill="hsl(0, 0%, 98%)">another</text>
+<text x="910" y="310" font-size="18" fill="hsl(0, 0%, 89%)">hallway</text>
+<text x="613" y="623" font-size="18" fill="hsl(0, 0%, 72%)">little</text>
+<text x="476" y="828" font-size="18" transform="rotate(-90, 476, 828) translate(-42, 0)" fill="hsl(0, 0%, 63%)">VOICE</text>
+<text x="360" y="126" font-size="18" fill="hsl(0, 0%, 76%)">face</text>
+<text x="527" y="577" font-size="18" fill="hsl(0, 0%, 78%)">blast</text>
+<text x="922" y="677" font-size="18" fill="hsl(0, 0%, 76%)">large</text>
+<text x="228" y="481" font-size="18" transform="rotate(-90, 228, 481) translate(-29, 0)" fill="hsl(0, 0%, 62%)">wall</text>
+<text x="767" y="659" font-size="18" fill="hsl(0, 0%, 62%)">creature</text>
+<text x="415" y="378" font-size="18" fill="hsl(0, 0%, 92%)">give</text>
+<text x="232" y="729" font-size="18" transform="rotate(-90, 232, 729) translate(-24, 0)" fill="hsl(0, 0%, 87%)">run</text>
+<text x="239" y="581" font-size="18" fill="hsl(0, 0%, 64%)">pilot</text>
+<text x="858" y="553" font-size="18" fill="hsl(0, 0%, 65%)">race</text>
+<text x="794" y="402" font-size="18" fill="hsl(0, 0%, 87%)">seem</text>
+<text x="339" y="618" font-size="18" fill="hsl(0, 0%, 86%)">Force</text>
+<text x="258" y="195" font-size="18" fill="hsl(0, 0%, 69%)">trench</text>
+<text x="111" y="746" font-size="16" fill="hsl(0, 0%, 98%)">SPACE AROUND</text>
+<text x="147" y="904" font-size="15" fill="hsl(0, 0%, 76%)">AROUND DEATH</text>
+<text x="275" y="259" font-size="15" fill="hsl(0, 0%, 79%)">door</text>
+<text x="370" y="487" font-size="15" fill="hsl(0, 0%, 61%)">system</text>
+<text x="446" y="523" font-size="15" fill="hsl(0, 0%, 71%)">stop</text>
+<text x="941" y="335" font-size="15" fill="hsl(0, 0%, 82%)">Well</text>
+<text x="476" y="885" font-size="15" fill="hsl(0, 0%, 80%)">Jawa</text>
+<text x="997" y="722" font-size="15" fill="hsl(0, 0%, 98%)">looking</text>
+<text x="241" y="738" font-size="15" fill="hsl(0, 0%, 78%)">Solo</text>
+<text x="945" y="427" font-size="15" fill="hsl(0, 0%, 82%)">Star surface</text>
+<text x="562" y="263" font-size="15" fill="hsl(0, 0%, 70%)">surface</text>
+<text x="227" y="411" font-size="15" fill="hsl(0, 0%, 60%)">past</text>
+<text x="584" y="682" font-size="15" fill="hsl(0, 0%, 69%)">laserfire</text>
+<text x="267" y="549" font-size="15" fill="hsl(0, 0%, 90%)">Alderaan</text>
+<text x="544" y="646" font-size="15" fill="hsl(0, 0%, 89%)">pull</text>
+<text x="622" y="904" font-size="15" fill="hsl(0, 0%, 65%)">COCKPIT Red</text>
+<text x="100" y="858" font-size="15" fill="hsl(0, 0%, 78%)">power</text>
+<text x="851" y="427" font-size="15" fill="hsl(0, 0%, 85%)">old</text>
+<text x="455" y="390" font-size="15" fill="hsl(0, 0%, 87%)">must</text>
+<text x="197" y="807" font-size="15" fill="hsl(0, 0%, 84%)">WEDGE</text>
+<text x="673" y="450" font-size="13" fill="hsl(0, 0%, 93%)">MASSASSI OUTPOST</text>
+<text x="372" y="322" font-size="13" fill="hsl(0, 0%, 94%)">Princess</text>
+<text x="1002" y="555" font-size="13" fill="hsl(0, 0%, 86%)">sound</text>
+<text x="486" y="532" font-size="13" transform="rotate(-90, 486, 532) translate(-21, 0)" fill="hsl(0, 0%, 100%)">hold</text>
+<text x="886" y="760" font-size="13" transform="rotate(-90, 886, 760) translate(-17, 0)" fill="hsl(0, 0%, 64%)">say</text>
+<text x="812" y="784" font-size="13" fill="hsl(0, 0%, 83%)">WAR ROOM</text>
+<text x="465" y="432" font-size="13" transform="rotate(-90, 465, 432) translate(-42, 0)" fill="hsl(0, 0%, 85%)">RED TEN</text>
+<text x="701" y="121" font-size="13" fill="hsl(0, 0%, 90%)">want</text>
+<text x="952" y="364" font-size="13" fill="hsl(0, 0%, 86%)">good</text>
+<text x="236" y="756" font-size="13" fill="hsl(0, 0%, 63%)">droid</text>
+<text x="534" y="444" font-size="13" fill="hsl(0, 0%, 87%)">continue</text>
+<text x="1008" y="531" font-size="13" fill="hsl(0, 0%, 79%)">dive</text>
+<text x="215" y="468" font-size="13" fill="hsl(0, 0%, 75%)">GOLD FIVE</text>
+<text x="785" y="292" font-size="13" fill="hsl(0, 0%, 80%)">sure</text>
+<text x="110" y="884" font-size="13" fill="hsl(0, 0%, 90%)">front</text>
+<text x="770" y="681" font-size="13" fill="hsl(0, 0%, 100%)">friend</text>
+<text x="370" y="576" font-size="13" fill="hsl(0, 0%, 93%)">wait</text>
+<text x="500" y="568" font-size="13" fill="hsl(0, 0%, 81%)">find</text>
+<text x="763" y="148" font-size="13" fill="hsl(0, 0%, 100%)">standing</text>
+<text x="870" y="245" font-size="13" fill="hsl(0, 0%, 60%)">speeder</text>
+<text x="732" y="529" font-size="13" fill="hsl(0, 0%, 64%)">gun</text>
+<text x="266" y="637" font-size="13" fill="hsl(0, 0%, 99%)">comlink</text>
+<text x="538" y="120" font-size="13" transform="rotate(-90, 538, 120) translate(-82, 0)" fill="hsl(0, 0%, 82%)">VADER COCKPIT</text>
+<text x="777" y="562" font-size="13" transform="rotate(-90, 777, 562) translate(-78, 0)" fill="hsl(0, 0%, 69%)">COCKPIT Vader</text>
+<text x="505" y="254" font-size="13" fill="hsl(0, 0%, 60%)">starship</text>
+<text x="1073" y="643" font-size="13" transform="rotate(-90, 1073, 643) translate(-12, 0)" fill="hsl(0, 0%, 90%)">sit</text>
+<text x="597" y="817" font-size="13" fill="hsl(0, 0%, 76%)">moment</text>
+<text x="742" y="217" font-size="13" fill="hsl(0, 0%, 67%)">enter</text>
+<text x="729" y="549" font-size="13" fill="hsl(0, 0%, 66%)">thing</text>
+<text x="280" y="164" font-size="13" fill="hsl(0, 0%, 79%)">coming</text>
+<text x="618" y="274" font-size="13" fill="hsl(0, 0%, 90%)">Obi Wan</text>
+<text x="396" y="128" font-size="10" fill="hsl(0, 0%, 81%)">FALCON COCKPIT</text>
+<text x="561" y="127" font-size="10" fill="hsl(0, 0%, 77%)">LEADER COCKPIT</text>
+<text x="995" y="622" font-size="10" fill="hsl(0, 0%, 76%)">LEADER WING</text>
+<text x="427" y="652" font-size="10" fill="hsl(0, 0%, 95%)">planet</text>
+<text x="208" y="537" font-size="10" fill="hsl(0, 0%, 67%)">close</text>
+<text x="926" y="745" font-size="10" fill="hsl(0, 0%, 86%)">group</text>
+<text x="172" y="605" font-size="10" fill="hsl(0, 0%, 81%)">let</text>
+<text x="365" y="739" font-size="10" fill="hsl(0, 0%, 67%)">attack</text>
+<text x="606" y="441" font-size="10" transform="rotate(-90, 606, 441) translate(-27, 0)" fill="hsl(0, 0%, 60%)">Chewie</text>
+<text x="519" y="803" font-size="10" fill="hsl(0, 0%, 86%)">Princess Leia</text>
+<text x="434" y="251" font-size="10" fill="hsl(0, 0%, 84%)">MOS EISLEY</text>
+<text x="307" y="251" font-size="10" fill="hsl(0, 0%, 83%)">targeting device</text>
+<text x="333" y="471" font-size="10" fill="hsl(0, 0%, 91%)">short</text>
+<text x="521" y="471" font-size="10" fill="hsl(0, 0%, 85%)">much</text>
+<text x="842" y="442" font-size="10" fill="hsl(0, 0%, 97%)">watches</text>
+<text x="712" y="190" font-size="10" fill="hsl(0, 0%, 70%)">work</text>
+<text x="473" y="699" font-size="10" transform="rotate(-90, 473, 699) translate(-17, 0)" fill="hsl(0, 0%, 95%)">help</text>
+<text x="331" y="313" font-size="10" transform="rotate(-90, 331, 313) translate(-14, 0)" fill="hsl(0, 0%, 76%)">put</text>
+<text x="492" y="847" font-size="10" fill="hsl(0, 0%, 84%)">Oh</text>
+<text x="740" y="823" font-size="10" fill="hsl(0, 0%, 65%)">father</text>
+<text x="998" y="568" font-size="10" fill="hsl(0, 0%, 77%)">position</text>
+<text x="346" y="389" font-size="10" fill="hsl(0, 0%, 93%)">point</text>
+<text x="471" y="127" font-size="10" fill="hsl(0, 0%, 80%)">docking bay</text>
+<text x="557" y="218" font-size="10" fill="hsl(0, 0%, 71%)">OUTPOST WAR</text>
+<text x="783" y="836" font-size="10" fill="hsl(0, 0%, 89%)">weapon</text>
+<text x="1022" y="740" font-size="10" fill="hsl(0, 0%, 77%)">along</text>
+<text x="420" y="396" font-size="10" fill="hsl(0, 0%, 63%)">hear</text>
+<text x="715" y="497" font-size="10" fill="hsl(0, 0%, 64%)">shut</text>
+<text x="748" y="290" font-size="10" fill="hsl(0, 0%, 64%)">heard</text>
+<text x="214" y="612" font-size="10" fill="hsl(0, 0%, 81%)">last</text>
+<text x="652" y="215" font-size="10" fill="hsl(0, 0%, 79%)">even</text>
+<text x="867" y="623" font-size="10" fill="hsl(0, 0%, 64%)">guard</text>
+<text x="376" y="251" font-size="10" fill="hsl(0, 0%, 71%)">laserbolt</text>
+<text x="853" y="187" font-size="10" fill="hsl(0, 0%, 69%)">appear</text>
+<text x="962" y="661" font-size="10" fill="hsl(0, 0%, 63%)">Artoo Detoo</text>
+<text x="271" y="683" font-size="10" fill="hsl(0, 0%, 89%)">far</text>
+<text x="204" y="681" font-size="10" fill="hsl(0, 0%, 71%)">Empire</text>
+<text x="660" y="127" font-size="10" fill="hsl(0, 0%, 82%)">enough</text>
+<text x="165" y="581" font-size="10" fill="hsl(0, 0%, 64%)">explosion</text>
+<text x="520" y="492" font-size="10" fill="hsl(0, 0%, 71%)">floor</text>
+<text x="1056" y="723" font-size="10" fill="hsl(0, 0%, 68%)">follow</text>
+<text x="211" y="274" font-size="10" fill="hsl(0, 0%, 69%)">four</text>
+<text x="490" y="866" font-size="10" fill="hsl(0, 0%, 70%)">kid</text>
+<text x="775" y="686" font-size="10" transform="rotate(-90, 775, 686) translate(-47, 0)" fill="hsl(0, 0%, 74%)">Sandpeople</text>
+<text x="468" y="596" font-size="10" transform="rotate(-90, 468, 596) translate(-19, 0)" fill="hsl(0, 0%, 89%)">open</text>
+<text x="147" y="818" font-size="10" fill="hsl(0, 0%, 79%)">Jabba</text>
+<text x="887" y="685" font-size="10" fill="hsl(0, 0%, 97%)">screen</text>
+<text x="347" y="420" font-size="10" fill="hsl(0, 0%, 84%)">plan</text>
+<text x="361" y="633" font-size="10" fill="hsl(0, 0%, 63%)">explode</text>
+<text x="538" y="590" font-size="10" fill="hsl(0, 0%, 94%)">Dodonna</text>
+<text x="434" y="839" font-size="10" fill="hsl(0, 0%, 85%)">zoom</text>
+<text x="249" y="797" font-size="10" transform="rotate(-90, 249, 797) translate(-66, 0)" fill="hsl(0, 0%, 93%)">INTERCOM VOICE</text>
+<text x="177" y="633" font-size="10" fill="hsl(0, 0%, 97%)">COCKPIT Gold</text>
+<text x="885" y="259" font-size="10" fill="hsl(0, 0%, 65%)">firing</text>
+<text x="498" y="544" font-size="10" fill="hsl(0, 0%, 73%)">streak</text>
+<text x="273" y="465" font-size="10" fill="hsl(0, 0%, 80%)">electronic</text>
+<text x="694" y="607" font-size="10" fill="hsl(0, 0%, 92%)">boy</text>
+<text x="429" y="634" font-size="10" fill="hsl(0, 0%, 70%)">next</text>
+<text x="854" y="705" font-size="10" fill="hsl(0, 0%, 80%)">minute</text>
+<text x="253" y="595" font-size="10" fill="hsl(0, 0%, 87%)">goes</text>
+<text x="180" y="916" font-size="10" fill="hsl(0, 0%, 78%)">Commander</text>
+<text x="326" y="558" font-size="10" fill="hsl(0, 0%, 73%)">laser</text>
+<text x="745" y="873" font-size="10" fill="hsl(0, 0%, 82%)">man</text>
+<text x="282" y="354" font-size="10" transform="rotate(-90, 282, 354) translate(-28, 0)" fill="hsl(0, 0%, 92%)">almost</text>
+<text x="403" y="576" font-size="10" fill="hsl(0, 0%, 95%)">tell</text>
+<text x="497" y="392" font-size="10" fill="hsl(0, 0%, 81%)">area</text>
+<text x="384" y="501" font-size="10" fill="hsl(0, 0%, 82%)">watch</text>
+<text x="1084" y="667" font-size="10" transform="rotate(-90, 1084, 667) translate(-39, 0)" fill="hsl(0, 0%, 78%)">formation</text>
+<text x="902" y="286" font-size="9" fill="hsl(0, 0%, 88%)">little Artoo</text>
+<text x="451" y="408" font-size="9" fill="hsl(0, 0%, 92%)">slowly</text>
+<text x="276" y="591" font-size="9" fill="hsl(0, 0%, 96%)">first</text>
+<text x="941" y="624" font-size="9" fill="hsl(0, 0%, 89%)">station</text>
+<text x="389" y="747" font-size="9" transform="rotate(-90, 389, 747) translate(-13, 0)" fill="hsl(0, 0%, 94%)">tiny</text>
+<text x="233" y="487" font-size="9" fill="hsl(0, 0%, 65%)">giant</text>
+<text x="240" y="903" font-size="9" fill="hsl(0, 0%, 94%)">better</text>
+<text x="87" y="796" font-size="9" transform="rotate(-90, 87, 796) translate(-15, 0)" fill="hsl(0, 0%, 82%)">DAY</text>
+<text x="587" y="617" font-size="9" fill="hsl(0, 0%, 77%)">speak</text>
+<text x="539" y="496" font-size="9" transform="rotate(-90, 539, 496) translate(-16, 0)" fill="hsl(0, 0%, 77%)">dead</text>
+<text x="776" y="213" font-size="9" fill="hsl(0, 0%, 99%)">thought</text>
+<text x="827" y="716" font-size="9" fill="hsl(0, 0%, 60%)">big</text>
+<text x="745" y="462" font-size="9" fill="hsl(0, 0%, 91%)">second</text>
+<text x="780" y="853" font-size="9" fill="hsl(0, 0%, 68%)">really</text>
+<text x="1032" y="662" font-size="9" fill="hsl(0, 0%, 97%)">three</text>
+<text x="627" y="857" font-size="9" fill="hsl(0, 0%, 71%)">Sandcrawler</text>
+<text x="220" y="231" font-size="9" fill="hsl(0, 0%, 84%)">beep</text>
+<text x="157" y="677" font-size="9" fill="hsl(0, 0%, 96%)">Stay</text>
+<text x="298" y="320" font-size="9" fill="hsl(0, 0%, 83%)">arm</text>
+<text x="619" y="536" font-size="9" fill="hsl(0, 0%, 64%)">Wookiee</text>
+<text x="893" y="766" font-size="9" fill="hsl(0, 0%, 95%)">moon</text>
+<text x="689" y="825" font-size="8" fill="hsl(0, 0%, 62%)">battle station</text>
+<text x="409" y="801" font-size="8" fill="hsl(0, 0%, 72%)">LUKE Well</text>
+<text x="802" y="239" font-size="8" fill="hsl(0, 0%, 72%)">looks around</text>
+<text x="402" y="513" font-size="7" fill="hsl(0, 0%, 78%)">beeping sound</text>
+<text x="812" y="161" font-size="7" fill="hsl(0, 0%, 62%)">laser cannon</text>
+<text x="721" y="288" font-size="7" fill="hsl(0, 0%, 74%)">outside</text>
+<text x="626" y="793" font-size="7" fill="hsl(0, 0%, 88%)">corridor</text>
+<text x="980" y="726" font-size="7" fill="hsl(0, 0%, 67%)">feet</text>
+<text x="955" y="279" font-size="7" transform="rotate(-90, 955, 279) translate(-14, 0)" fill="hsl(0, 0%, 88%)">place</text>
+<text x="719" y="502" font-size="7" transform="rotate(-90, 719, 502) translate(-29, 0)" fill="hsl(0, 0%, 84%)">subhallway</text>
+<text x="527" y="924" font-size="7" fill="hsl(0, 0%, 96%)">rushes</text>
+<text x="905" y="225" font-size="7" fill="hsl(0, 0%, 65%)">found</text>
+<text x="344" y="401" font-size="7" fill="hsl(0, 0%, 98%)">great</text>
+<text x="681" y="504" font-size="7" transform="rotate(-90, 681, 504) translate(-25, 0)" fill="hsl(0, 0%, 91%)">Rebellion</text>
+<text x="282" y="651" font-size="7" transform="rotate(-90, 282, 651) translate(-9, 0)" fill="hsl(0, 0%, 85%)">cut</text>
+<text x="632" y="573" font-size="7" fill="hsl(0, 0%, 94%)">spot</text>
+<text x="624" y="915" font-size="7" fill="hsl(0, 0%, 92%)">jump</text>
+<text x="475" y="452" font-size="7" transform="rotate(-90, 475, 452) translate(-16, 0)" fill="hsl(0, 0%, 82%)">Listen</text>
+<text x="781" y="693" font-size="7" fill="hsl(0, 0%, 96%)">trying</text>
+<text x="488" y="889" font-size="7" transform="rotate(-90, 488, 889) translate(-15, 0)" fill="hsl(0, 0%, 65%)">never</text>
+<text x="578" y="427" font-size="7" fill="hsl(0, 0%, 92%)">need</text>
+<text x="487" y="612" font-size="7" fill="hsl(0, 0%, 93%)">Okay</text>
+<text x="913" y="322" font-size="7" fill="hsl(0, 0%, 66%)">reaches</text>
+<text x="824" y="557" font-size="7" fill="hsl(0, 0%, 60%)">year</text>
+<text x="383" y="770" font-size="7" fill="hsl(0, 0%, 88%)">still</text>
+<text x="523" y="411" font-size="7" transform="rotate(-90, 523, 411) translate(-7, 0)" fill="hsl(0, 0%, 94%)">try</text>
+<text x="341" y="314" font-size="7" fill="hsl(0, 0%, 63%)">speaker</text>
+<text x="830" y="642" font-size="7" fill="hsl(0, 0%, 99%)">THREEPIO Artoo</text>
+<text x="226" y="424" font-size="7" fill="hsl(0, 0%, 100%)">laser pistol</text>
+<text x="964" y="505" font-size="7" fill="hsl(0, 0%, 63%)">Artoo beeps</text>
+<text x="432" y="773" font-size="7" fill="hsl(0, 0%, 61%)">Wan Kenobi</text>
+<text x="860" y="199" font-size="7" fill="hsl(0, 0%, 60%)">Imperial TIE</text>
+<text x="433" y="688" font-size="7" transform="rotate(-90, 433, 688) translate(-51, 0)" fill="hsl(0, 0%, 75%)">FALCON GUNPORT</text>
+<text x="498" y="686" font-size="6" fill="hsl(0, 0%, 69%)">BIGGS' COCKPIT</text>
+<text x="864" y="564" font-size="6" fill="hsl(0, 0%, 80%)">STAR Three</text>
+<text x="129" y="901" font-size="6" fill="hsl(0, 0%, 94%)">main</text>
+<text x="670" y="106" font-size="6" fill="hsl(0, 0%, 60%)">battle</text>
+<text x="329" y="131" font-size="6" fill="hsl(0, 0%, 87%)">TATOOINE</text>
+<text x="906" y="619" font-size="6" fill="hsl(0, 0%, 84%)">battered</text>
+<text x="465" y="371" font-size="6" fill="hsl(0, 0%, 79%)">aim</text>
+<text x="451" y="486" font-size="6" fill="hsl(0, 0%, 81%)">moving</text>
+<text x="219" y="520" font-size="6" fill="hsl(0, 0%, 79%)">Hey</text>
+<text x="930" y="693" font-size="6" fill="hsl(0, 0%, 97%)">ROOM</text>
+<text x="352" y="488" font-size="6" fill="hsl(0, 0%, 77%)">lot</text>
+<text x="449" y="539" font-size="6" fill="hsl(0, 0%, 84%)">keep</text>
+<text x="612" y="439" font-size="6" fill="hsl(0, 0%, 68%)">anything</text>
+<text x="740" y="474" font-size="6" fill="hsl(0, 0%, 60%)">leave</text>
+<text x="573" y="807" font-size="6" fill="hsl(0, 0%, 75%)">canyon</text>
+<text x="566" y="605" font-size="6" fill="hsl(0, 0%, 87%)">quite</text>
+<text x="467" y="731" font-size="6" fill="hsl(0, 0%, 100%)">speed</text>
+<text x="1053" y="627" font-size="6" fill="hsl(0, 0%, 78%)">table</text>
+<text x="879" y="443" font-size="6" fill="hsl(0, 0%, 99%)">disappear</text>
+<text x="599" y="829" font-size="6" fill="hsl(0, 0%, 82%)">use</text>
+<text x="626" y="778" font-size="6" fill="hsl(0, 0%, 79%)">Five</text>
+<text x="469" y="773" font-size="6" fill="hsl(0, 0%, 68%)">board</text>
+<text x="244" y="389" font-size="6" fill="hsl(0, 0%, 96%)">target</text>
+<text x="278" y="559" font-size="6" fill="hsl(0, 0%, 63%)">grab</text>
+<text x="255" y="607" font-size="6" fill="hsl(0, 0%, 73%)">R2 unit</text>
+<text x="224" y="596" font-size="6" fill="hsl(0, 0%, 99%)">Aunt Beru</text>
+<text x="727" y="561" font-size="6" fill="hsl(0, 0%, 77%)">Ben Kenobi</text>
+<text x="722" y="725" font-size="6" fill="hsl(0, 0%, 72%)">toward Death</text>
+<text x="550" y="925" font-size="6" fill="hsl(0, 0%, 64%)">TIE ship</text>
+<text x="777" y="785" font-size="6" transform="rotate(-90, 777, 785) translate(-25, 0)" fill="hsl(0, 0%, 81%)">STAR MAIN</text>
+<text x="421" y="315" font-size="6" fill="hsl(0, 0%, 82%)">FORWARD BAY</text>
+<text x="910" y="463" font-size="5" fill="hsl(0, 0%, 90%)">Imperial stormtrooper</text>
+<text x="248" y="557" font-size="5" fill="hsl(0, 0%, 95%)">Rebel fighter</text>
+<text x="933" y="544" font-size="5" fill="hsl(0, 0%, 68%)">STAR TRENCH</text>
+<text x="379" y="330" font-size="5" fill="hsl(0, 0%, 82%)">struggle</text>
+<text x="275" y="575" font-size="5" fill="hsl(0, 0%, 82%)">smoke</text>
+<text x="793" y="301" font-size="5" fill="hsl(0, 0%, 91%)">near</text>
+<text x="764" y="125" font-size="5" fill="hsl(0, 0%, 70%)">horizon</text>
+<text x="966" y="459" font-size="5" fill="hsl(0, 0%, 84%)">air</text>
+<text x="186" y="454" font-size="5" fill="hsl(0, 0%, 92%)">smile</text>
+<text x="365" y="595" font-size="5" fill="hsl(0, 0%, 96%)">sight</text>
+<text x="715" y="897" font-size="5" fill="hsl(0, 0%, 84%)">distance</text>
+<text x="489" y="319" font-size="5" fill="hsl(0, 0%, 93%)">direction</text>
+<text x="702" y="130" font-size="5" fill="hsl(0, 0%, 67%)">approaching</text>
+<text x="719" y="211" font-size="5" fill="hsl(0, 0%, 100%)">hatch</text>
+<text x="471" y="683" font-size="5" fill="hsl(0, 0%, 84%)">narrow</text>
+<text x="388" y="186" font-size="5" fill="hsl(0, 0%, 93%)">life</text>
+<text x="633" y="131" font-size="5" fill="hsl(0, 0%, 60%)">bad</text>
+<text x="775" y="389" font-size="5" fill="hsl(0, 0%, 68%)">uncle</text>
+<text x="178" y="672" font-size="5" fill="hsl(0, 0%, 79%)">blaster</text>
+<text x="427" y="520" font-size="5" fill="hsl(0, 0%, 61%)">seen</text>
+<text x="748" y="355" font-size="5" fill="hsl(0, 0%, 64%)">line</text>
+<text x="546" y="361" font-size="5" fill="hsl(0, 0%, 78%)">shoulder</text>
+<text x="437" y="357" font-size="5" fill="hsl(0, 0%, 84%)">master</text>
+<text x="812" y="817" font-size="5" fill="hsl(0, 0%, 78%)">become</text>
+<text x="737" y="888" font-size="5" fill="hsl(0, 0%, 89%)">range</text>
+<text x="171" y="545" font-size="5" fill="hsl(0, 0%, 62%)">cell</text>
+<text x="679" y="213" font-size="5" fill="hsl(0, 0%, 86%)">port</text>
+<text x="175" y="807" font-size="5" fill="hsl(0, 0%, 87%)">wingmen</text>
+<text x="566" y="569" font-size="5" fill="hsl(0, 0%, 78%)">REBEL BLOCKADE</text>
+<text x="285" y="692" font-size="5" fill="hsl(0, 0%, 82%)">BLOCKADE RUNNER</text>
+<text x="341" y="725" font-size="5" fill="hsl(0, 0%, 87%)">shakes head</text>
+<text x="336" y="692" font-size="5" fill="hsl(0, 0%, 62%)">old Ben</text>
+<text x="882" y="377" font-size="5" fill="hsl(0, 0%, 87%)">Rebel base</text>
+<text x="1005" y="510" font-size="5" fill="hsl(0, 0%, 69%)">CONTROL ROOM</text>
+<text x="234" y="268" font-size="5" fill="hsl(0, 0%, 85%)">COCKPIT TRAVELING</text>
+<text x="839" y="794" font-size="5" fill="hsl(0, 0%, 76%)">new</text>
+<text x="610" y="631" font-size="5" fill="hsl(0, 0%, 85%)">home</text>
+<text x="599" y="425" font-size="5" transform="rotate(-90, 599, 425) translate(-7, 0)" fill="hsl(0, 0%, 87%)">half</text>
+<text x="948" y="343" font-size="5" fill="hsl(0, 0%, 66%)">Hurry</text>
+<text x="488" y="773" font-size="5" fill="hsl(0, 0%, 71%)">young</text>
+<text x="931" y="755" font-size="5" fill="hsl(0, 0%, 96%)">end</text>
+<text x="830" y="370" font-size="5" fill="hsl(0, 0%, 84%)">soldier</text>
+<text x="852" y="375" font-size="5" fill="hsl(0, 0%, 91%)">getting</text>
+<text x="303" y="261" font-size="5" fill="hsl(0, 0%, 69%)">course</text>
+<text x="618" y="252" font-size="5" fill="hsl(0, 0%, 90%)">worry</text>
+<text x="949" y="636" font-size="5" fill="hsl(0, 0%, 79%)">fight</text>
+<text x="520" y="812" font-size="5" fill="hsl(0, 0%, 72%)">part</text>
+<text x="918" y="246" font-size="5" fill="hsl(0, 0%, 91%)">approaches</text>
+<text x="955" y="743" font-size="5" fill="hsl(0, 0%, 70%)">sand</text>
+<text x="303" y="176" font-size="5" fill="hsl(0, 0%, 94%)">whistle</text>
+<text x="363" y="560" font-size="5" fill="hsl(0, 0%, 79%)">distant</text>
+<text x="885" y="269" font-size="5" fill="hsl(0, 0%, 94%)">left</text>
+<text x="620" y="156" font-size="5" transform="rotate(-90, 620, 156) translate(-11, 0)" fill="hsl(0, 0%, 91%)">might</text>
+<text x="841" y="651" font-size="5" fill="hsl(0, 0%, 71%)">bit</text>
+<text x="806" y="411" font-size="5" fill="hsl(0, 0%, 71%)">shoot</text>
+<text x="1057" y="635" font-size="5" fill="hsl(0, 0%, 83%)">followed</text>
+<text x="447" y="864" font-size="5" fill="hsl(0, 0%, 87%)">Uh</text>
+<text x="770" y="764" font-size="5" transform="rotate(-90, 770, 764) translate(-12, 0)" fill="hsl(0, 0%, 77%)">hangar</text>
+<text x="513" y="579" font-size="5" fill="hsl(0, 0%, 83%)">able</text>
+<text x="519" y="435" font-size="5" fill="hsl(0, 0%, 81%)">blow</text>
+<text x="1050" y="731" font-size="5" fill="hsl(0, 0%, 73%)">bartender</text>
+<text x="861" y="522" font-size="5" fill="hsl(0, 0%, 87%)">fast</text>
+<text x="993" y="405" font-size="5" fill="hsl(0, 0%, 61%)">check</text>
+<text x="416" y="434" font-size="5" transform="rotate(-90, 416, 434) translate(-16, 0)" fill="hsl(0, 0%, 70%)">GREEDO</text>
+<text x="894" y="693" font-size="5" fill="hsl(0, 0%, 89%)">green</text>
+<text x="761" y="554" font-size="5" fill="hsl(0, 0%, 79%)">crew</text>
+<text x="87" y="841" font-size="5" fill="hsl(0, 0%, 74%)">flame</text>
+<text x="969" y="544" font-size="5" fill="hsl(0, 0%, 65%)">tower</text>
+<text x="523" y="453" font-size="5" fill="hsl(0, 0%, 85%)">headset</text>
+<text x="313" y="180" font-size="5" transform="rotate(-90, 313, 180) translate(-22, 0)" fill="hsl(0, 0%, 66%)">Uncle Owen</text>
+<text x="375" y="105" font-size="5" fill="hsl(0, 0%, 63%)">HOLD AREA</text>
+<text x="846" y="603" font-size="5" fill="hsl(0, 0%, 74%)">TATOOINE MOS</text>
+<text x="154" y="912" font-size="5" fill="hsl(0, 0%, 91%)">Han Solo</text>
+<text x="1006" y="576" font-size="5" fill="hsl(0, 0%, 90%)">control panel</text>
+<text x="789" y="603" font-size="5" fill="hsl(0, 0%, 76%)">Imperial fighter</text>
+<text x="580" y="271" font-size="5" fill="hsl(0, 0%, 93%)">MAIN FORWARD</text>
+<text x="697" y="287" font-size="5" fill="hsl(0, 0%, 80%)">three TIE</text>
+<text x="535" y="657" font-size="5" fill="hsl(0, 0%, 73%)">galaxy</text>
+<text x="272" y="728" font-size="5" fill="hsl(0, 0%, 87%)">aboard</text>
+<text x="915" y="233" font-size="5" fill="hsl(0, 0%, 73%)">human</text>
+<text x="686" y="524" font-size="5" fill="hsl(0, 0%, 72%)">rush</text>
+<text x="475" y="161" font-size="5" transform="rotate(-90, 475, 161) translate(-10, 0)" fill="hsl(0, 0%, 67%)">filled</text>
+<text x="405" y="330" font-size="5" fill="hsl(0, 0%, 87%)">morning</text>
+<text x="534" y="402" font-size="5" fill="hsl(0, 0%, 61%)">seven</text>
+<text x="725" y="510" font-size="5" fill="hsl(0, 0%, 61%)">Dark</text>
+<text x="741" y="148" font-size="5" fill="hsl(0, 0%, 84%)">mission</text>
+<text x="902" y="270" font-size="5" fill="hsl(0, 0%, 85%)">RED</text>
+<text x="933" y="421" font-size="5" fill="hsl(0, 0%, 69%)">call</text>
+<text x="783" y="737" font-size="5" fill="hsl(0, 0%, 82%)">talking</text>
+<text x="582" y="443" font-size="5" fill="hsl(0, 0%, 97%)">rest</text>
+<text x="832" y="745" font-size="5" transform="rotate(-90, 832, 745) translate(-21, 0)" fill="hsl(0, 0%, 76%)">background</text>
+<text x="835" y="422" font-size="5" fill="hsl(0, 0%, 90%)">shot</text>
+<text x="450" y="419" font-size="5" fill="hsl(0, 0%, 80%)">happened</text>
+<text x="443" y="848" font-size="5" fill="hsl(0, 0%, 64%)">came</text>
+<text x="779" y="866" font-size="5" fill="hsl(0, 0%, 97%)">low</text>
+<text x="642" y="675" font-size="5" transform="rotate(-90, 642, 675) translate(-8, 0)" fill="hsl(0, 0%, 93%)">gets</text>
+<text x="874" y="714" font-size="5" fill="hsl(0, 0%, 97%)">may</text>
+<text x="946" y="731" font-size="5" fill="hsl(0, 0%, 71%)">HOMESTEAD</text>
+<text x="464" y="741" font-size="5" fill="hsl(0, 0%, 67%)">quickly</text>
+<text x="192" y="280" font-size="5" fill="hsl(0, 0%, 91%)">garage</text>
+<text x="227" y="217" font-size="5" fill="hsl(0, 0%, 93%)">Yeah</text>
+<text x="716" y="199" font-size="5" fill="hsl(0, 0%, 81%)">trouble</text>
+<text x="234" y="499" font-size="5" fill="hsl(0, 0%, 69%)">tries</text>
+<text x="773" y="156" font-size="5" fill="hsl(0, 0%, 60%)">gone</text>
+<text x="855" y="243" font-size="5" fill="hsl(0, 0%, 63%)">yell</text>
+<text x="829" y="727" font-size="5" transform="rotate(-90, 829, 727) translate(-11, 0)" fill="hsl(0, 0%, 96%)">closer</text>
+<text x="339" y="626" font-size="5" fill="hsl(0, 0%, 70%)">step</text>
+<text x="860" y="531" font-size="5" fill="hsl(0, 0%, 67%)">return</text>
+<text x="106" y="840" font-size="5" fill="hsl(0, 0%, 90%)">lightsaber</text>
+<text x="808" y="667" font-size="5" fill="hsl(0, 0%, 68%)">thousand</text>
+<text x="452" y="497" font-size="5" fill="hsl(0, 0%, 75%)">together</text>
+<text x="291" y="383" font-size="5" fill="hsl(0, 0%, 100%)">information</text>
+<text x="878" y="632" font-size="5" fill="hsl(0, 0%, 79%)">readout</text>
+<text x="962" y="489" font-size="5" fill="hsl(0, 0%, 99%)">ready</text>
+<text x="241" y="201" font-size="5" fill="hsl(0, 0%, 63%)">burst</text>
+<text x="1057" y="663" font-size="5" fill="hsl(0, 0%, 95%)">enemy</text>
+<text x="597" y="335" font-size="5" fill="hsl(0, 0%, 61%)">climb</text>
+<text x="279" y="322" font-size="5" fill="hsl(0, 0%, 92%)">shadow</text>
+<text x="871" y="725" font-size="5" fill="hsl(0, 0%, 87%)">adjust</text>
+<text x="216" y="815" font-size="5" fill="hsl(0, 0%, 61%)">Dark Lord</text>
+<text x="572" y="922" font-size="5" fill="hsl(0, 0%, 76%)">power station</text>
+<text x="893" y="544" font-size="5" fill="hsl(0, 0%, 66%)">LARS HOMESTEAD</text>
+<text x="154" y="635" font-size="5" fill="hsl(0, 0%, 89%)">old man</text>
+<text x="499" y="889" font-size="5" transform="rotate(-90, 499, 889) translate(-22, 0)" fill="hsl(0, 0%, 84%)">Han Chewie</text>
+<text x="267" y="172" font-size="5" fill="hsl(0, 0%, 76%)">Han Chewbacca</text>
+<text x="653" y="343" font-size="5" fill="hsl(0, 0%, 61%)">SPACE TIE</text>
+<text x="1093" y="679" font-size="5" transform="rotate(-90, 1093, 679) translate(-25, 0)" fill="hsl(0, 0%, 77%)">tractor beam</text>
+<text x="392" y="653" font-size="5" transform="rotate(-90, 392, 653) translate(-34, 0)" fill="hsl(0, 0%, 73%)">GARBAGE ROOM</text>
+<text x="573" y="665" font-size="5" transform="rotate(-90, 573, 665) translate(-23, 0)" fill="hsl(0, 0%, 89%)">exhaust port</text>
+<text x="786" y="560" font-size="5" transform="rotate(-90, 786, 560) translate(-32, 0)" fill="hsl(0, 0%, 65%)">COCKPIT Wedge</text>
+<text x="514" y="323" font-size="5" fill="hsl(0, 0%, 81%)">ROOM Leia</text>
+<text x="751" y="360" font-size="5" transform="rotate(-90, 751, 360) translate(-27, 0)" fill="hsl(0, 0%, 74%)">adjusts control</text>
+<text x="975" y="321" font-size="5" transform="rotate(-90, 975, 321) translate(-24, 0)" fill="hsl(0, 0%, 92%)">control stick</text>
+<text x="298" y="144" font-size="5" fill="hsl(0, 0%, 64%)">armored</text>
+<text x="427" y="781" font-size="5" fill="hsl(0, 0%, 84%)">shaking</text>
+<text x="953" y="686" font-size="5" fill="hsl(0, 0%, 73%)">scream</text>
+<text x="92" y="800" font-size="5" fill="hsl(0, 0%, 67%)">creating</text>
+<text x="177" y="615" font-size="5" fill="hsl(0, 0%, 70%)">desert</text>
+<text x="79" y="821" font-size="5" fill="hsl(0, 0%, 97%)">white</text>
+<text x="431" y="658" font-size="5" transform="rotate(-90, 431, 658) translate(-22, 0)" fill="hsl(0, 0%, 64%)">Landspeeder</text>
+<text x="213" y="543" font-size="5" transform="rotate(-90, 213, 543) translate(-13, 0)" fill="hsl(0, 0%, 62%)">leaving</text>
+<text x="766" y="741" font-size="5" fill="hsl(0, 0%, 62%)">quiet</text>
+<text x="1012" y="435" font-size="5" fill="hsl(0, 0%, 69%)">heading</text>
+<text x="458" y="657" font-size="5" fill="hsl(0, 0%, 68%)">bring</text>
+<text x="508" y="611" font-size="5" transform="rotate(-90, 508, 611) translate(-6, 0)" fill="hsl(0, 0%, 100%)">set</text>
+<text x="622" y="215" font-size="5" fill="hsl(0, 0%, 73%)">told</text>
+<text x="444" y="160" font-size="5" transform="rotate(-90, 444, 160) translate(-12, 0)" fill="hsl(0, 0%, 75%)">yelling</text>
+<text x="222" y="696" font-size="5" fill="hsl(0, 0%, 68%)">easy</text>
+<text x="540" y="264" font-size="5" fill="hsl(0, 0%, 78%)">nothing</text>
+<text x="642" y="915" font-size="5" fill="hsl(0, 0%, 75%)">made</text>
+<text x="174" y="755" font-size="5" fill="hsl(0, 0%, 87%)">reply</text>
+<text x="514" y="882" font-size="5" transform="rotate(-90, 514, 882) translate(-7, 0)" fill="hsl(0, 0%, 81%)">pay</text>
+<text x="699" y="524" font-size="5" fill="hsl(0, 0%, 82%)">said</text>
+<text x="842" y="552" font-size="5" fill="hsl(0, 0%, 71%)">best</text>
+<text x="529" y="520" font-size="5" fill="hsl(0, 0%, 77%)">strange</text>
+<text x="971" y="617" font-size="5" fill="hsl(0, 0%, 73%)">approach</text>
+<text x="610" y="853" font-size="5" fill="hsl(0, 0%, 78%)">pop</text>
+<text x="483" y="252" font-size="5" fill="hsl(0, 0%, 93%)">edge</text>
+<text x="554" y="658" font-size="5" fill="hsl(0, 0%, 85%)">blue</text>
+<text x="431" y="747" font-size="5" transform="rotate(-90, 431, 747) translate(-7, 0)" fill="hsl(0, 0%, 87%)">lost</text>
+<text x="856" y="173" font-size="5" fill="hsl(0, 0%, 95%)">center</text>
+<text x="257" y="854" font-size="5" transform="rotate(-90, 257, 854) translate(-10, 0)" fill="hsl(0, 0%, 86%)">mind</text>
+<text x="582" y="334" font-size="5" fill="hsl(0, 0%, 82%)">bar</text>
+<text x="693" y="104" font-size="5" fill="hsl(0, 0%, 60%)">massive</text>
+<text x="140" y="884" font-size="5" fill="hsl(0, 0%, 62%)">view</text>
+<text x="711" y="220" font-size="5" fill="hsl(0, 0%, 99%)">walk</text>
+<text x="144" y="799" font-size="5" fill="hsl(0, 0%, 67%)">everything</text>
+<text x="766" y="299" font-size="5" fill="hsl(0, 0%, 92%)">corner</text>
+<text x="266" y="692" font-size="5" fill="hsl(0, 0%, 85%)">button</text>
+<text x="944" y="347" font-size="5" transform="rotate(-90, 944, 347) translate(-25, 0)" fill="hsl(0, 0%, 75%)">transmission</text>
+<text x="88" y="773" font-size="5" transform="rotate(-90, 88, 773) translate(-14, 0)" fill="hsl(0, 0%, 87%)">twenty</text>
+<text x="406" y="466" font-size="5" fill="hsl(0, 0%, 81%)">round</text>
+<text x="387" y="158" font-size="5" fill="hsl(0, 0%, 66%)">charge</text>
+<text x="462" y="506" font-size="5" fill="hsl(0, 0%, 75%)">helmet</text>
+<text x="502" y="800" font-size="5" fill="hsl(0, 0%, 85%)">copy</text>
+<text x="703" y="905" font-size="5" fill="hsl(0, 0%, 86%)">cover</text>
+<text x="824" y="821" font-size="5" transform="rotate(-90, 824, 821) translate(-7, 0)" fill="hsl(0, 0%, 71%)">peel</text>
+<text x="318" y="383" font-size="5" fill="hsl(0, 0%, 60%)">Lord Vader</text>
+<text x="383" y="361" font-size="4" fill="hsl(0, 0%, 82%)">TATOOINE ROCK</text>
+<text x="709" y="174" font-size="4" fill="hsl(0, 0%, 65%)">EISLEY STREET</text>
+<text x="272" y="878" font-size="4" transform="rotate(-90, 272, 878) translate(-25, 0)" fill="hsl(0, 0%, 67%)">cockpit window</text>
+<text x="235" y="911" font-size="4" fill="hsl(0, 0%, 64%)">Two TIE</text>
+<text x="898" y="730" font-size="4" fill="hsl(0, 0%, 97%)">LEADER headset</text>
+<text x="362" y="583" font-size="4" fill="hsl(0, 0%, 78%)">WEDGE COCKPIT</text>
+<text x="995" y="632" font-size="4" fill="hsl(0, 0%, 78%)">hope</text>
+<text x="310" y="561" font-size="4" fill="hsl(0, 0%, 92%)">base</text>
+<text x="151" y="684" font-size="4" fill="hsl(0, 0%, 91%)">evil</text>
+<text x="457" y="880" font-size="4" fill="hsl(0, 0%, 69%)">entire</text>
+<text x="758" y="880" font-size="4" fill="hsl(0, 0%, 84%)">craft</text>
+<text x="889" y="280" font-size="4" fill="hsl(0, 0%, 72%)">tall</text>
+<text x="267" y="667" font-size="4" fill="hsl(0, 0%, 88%)">understand</text>
+<text x="675" y="492" font-size="4" fill="hsl(0, 0%, 81%)">escape</text>
+<text x="807" y="673" font-size="4" transform="rotate(-90, 807, 673) translate(-12, 0)" fill="hsl(0, 0%, 84%)">making</text>
+<text x="1015" y="656" font-size="4" fill="hsl(0, 0%, 94%)">heavy</text>
+<text x="599" y="532" font-size="4" fill="hsl(0, 0%, 77%)">hole</text>
+<text x="144" y="827" font-size="4" fill="hsl(0, 0%, 66%)">holding</text>
+<text x="482" y="830" font-size="4" fill="hsl(0, 0%, 71%)">barely</text>
+<text x="315" y="471" font-size="4" fill="hsl(0, 0%, 77%)">lifepod</text>
+<text x="915" y="762" font-size="4" fill="hsl(0, 0%, 77%)">flash</text>
+<text x="545" y="326" font-size="4" fill="hsl(0, 0%, 89%)">captain</text>
+<text x="465" y="315" font-size="4" fill="hsl(0, 0%, 94%)">loose</text>
+<text x="547" y="123" font-size="4" fill="hsl(0, 0%, 88%)">soon</text>
+<text x="482" y="695" font-size="4" transform="rotate(-90, 482, 695) translate(-15, 0)" fill="hsl(0, 0%, 92%)">stumbles</text>
+<text x="849" y="206" font-size="4" fill="hsl(0, 0%, 98%)">believe</text>
+<text x="329" y="478" font-size="4" fill="hsl(0, 0%, 84%)">senator</text>
+<text x="785" y="222" font-size="4" fill="hsl(0, 0%, 74%)">dangerous</text>
+<text x="616" y="336" font-size="4" fill="hsl(0, 0%, 61%)">send</text>
+<text x="319" y="626" font-size="4" fill="hsl(0, 0%, 66%)">signal</text>
+<text x="614" y="566" font-size="4" fill="hsl(0, 0%, 86%)">season</text>
+<text x="951" y="645" font-size="4" fill="hsl(0, 0%, 99%)">CENTRAL</text>
+<text x="837" y="807" font-size="4" fill="hsl(0, 0%, 60%)">join</text>
+<text x="428" y="528" font-size="4" fill="hsl(0, 0%, 90%)">always</text>
+<text x="766" y="751" font-size="4" fill="hsl(0, 0%, 92%)">feel</text>
+<text x="255" y="375" font-size="4" fill="hsl(0, 0%, 79%)">powerful</text>
+<text x="448" y="367" font-size="4" fill="hsl(0, 0%, 78%)">glow</text>
+<text x="732" y="351" font-size="4" fill="hsl(0, 0%, 99%)">eight</text>
+<text x="636" y="467" font-size="4" fill="hsl(0, 0%, 90%)">size</text>
+<text x="134" y="839" font-size="4" fill="hsl(0, 0%, 69%)">beam</text>
+<text x="627" y="631" font-size="4" fill="hsl(0, 0%, 72%)">metal</text>
+<text x="1001" y="729" font-size="4" fill="hsl(0, 0%, 87%)">chamber</text>
+<text x="170" y="552" font-size="4" fill="hsl(0, 0%, 60%)">pick</text>
+<text x="187" y="596" font-size="4" fill="hsl(0, 0%, 65%)">slimy</text>
+<text x="1042" y="604" font-size="4" fill="hsl(0, 0%, 78%)">stick</text>
+<text x="532" y="626" font-size="4" fill="hsl(0, 0%, 98%)">grey</text>
+<text x="901" y="293" font-size="4" transform="rotate(-90, 901, 293) translate(-17, 0)" fill="hsl(0, 0%, 93%)">spaceship</text>
+<text x="710" y="138" font-size="4" fill="hsl(0, 0%, 96%)">laughing</text>
+<text x="469" y="435" font-size="4" fill="hsl(0, 0%, 64%)">many</text>
+<text x="524" y="392" font-size="4" transform="rotate(-90, 524, 392) translate(-9, 0)" fill="hsl(0, 0%, 87%)">afraid</text>
+<text x="938" y="269" font-size="4" fill="hsl(0, 0%, 81%)">message</text>
+<text x="130" y="865" font-size="4" fill="hsl(0, 0%, 100%)">bolt</text>
+<text x="281" y="334" font-size="4" fill="hsl(0, 0%, 87%)">high</text>
+<text x="602" y="838" font-size="4" fill="hsl(0, 0%, 86%)">deep</text>
+<text x="421" y="92" font-size="4" fill="hsl(0, 0%, 60%)">lies</text>
+<text x="890" y="773" font-size="4" fill="hsl(0, 0%, 84%)">Jedi</text>
+<text x="661" y="134" font-size="4" transform="rotate(-90, 661, 134) translate(-16, 0)" fill="hsl(0, 0%, 79%)">nervously</text>
+<text x="597" y="770" font-size="4" fill="hsl(0, 0%, 62%)">general</text>
+<text x="1008" y="538" font-size="4" fill="hsl(0, 0%, 72%)">precise</text>
+<text x="264" y="246" font-size="4" transform="rotate(-90, 264, 246) translate(-11, 0)" fill="hsl(0, 0%, 60%)">fighter</text>
+<text x="961" y="669" font-size="4" fill="hsl(0, 0%, 90%)">lock</text>
+<text x="95" y="868" font-size="4" fill="hsl(0, 0%, 77%)">ramp</text>
+<text x="639" y="438" font-size="4" fill="hsl(0, 0%, 96%)">lever</text>
+<text x="689" y="346" font-size="4" fill="hsl(0, 0%, 65%)">number</text>
+<text x="759" y="356" font-size="4" fill="hsl(0, 0%, 62%)">closing</text>
+<text x="414" y="810" font-size="4" fill="hsl(0, 0%, 82%)">shaft</text>
+<text x="167" y="562" font-size="4" fill="hsl(0, 0%, 87%)">bridge</text>
+<text x="331" y="638" font-size="4" fill="hsl(0, 0%, 62%)">swing</text>
+<text x="110" y="892" font-size="4" fill="hsl(0, 0%, 89%)">manage</text>
+<text x="1019" y="629" font-size="4" fill="hsl(0, 0%, 85%)">GUNPORT</text>
+<text x="996" y="644" font-size="4" fill="hsl(0, 0%, 79%)">Yavin</text>
+<text x="482" y="560" font-size="4" fill="hsl(0, 0%, 83%)">temple</text>
+<text x="489" y="654" font-size="4" fill="hsl(0, 0%, 73%)">maneuver</text>
+<text x="349" y="732" font-size="4" fill="hsl(0, 0%, 74%)">flying</text>
+<text x="1078" y="659" font-size="4" fill="hsl(0, 0%, 69%)">Flak</text>
+<text x="806" y="639" font-size="4" fill="hsl(0, 0%, 71%)">little robot</text>
+<text x="474" y="178" font-size="4" transform="rotate(-90, 474, 178) translate(-25, 0)" fill="hsl(0, 0%, 61%)">makes beeping</text>
+<text x="644" y="797" font-size="4" transform="rotate(-90, 644, 797) translate(-25, 0)" fill="hsl(0, 0%, 69%)">Imperial Officer</text>
+<text x="503" y="261" font-size="4" fill="hsl(0, 0%, 72%)">ROCK CANYON</text>
+<text x="846" y="449" font-size="4" fill="hsl(0, 0%, 64%)">FIRST TROOPER</text>
+<text x="644" y="541" font-size="4" transform="rotate(-90, 644, 541) translate(-20, 0)" fill="hsl(0, 0%, 67%)">THREEPIO Oh</text>
+</svg>
