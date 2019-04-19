@@ -1,6 +1,6 @@
 # SVG Word Cloud
 A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output while making the bare minimum changes to the code.
-## Example Output
+## SVG Output Examples
 Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com. I've tested them in Firefox, Chrome, and Safari on OSX, iOS POP!os(a variant of Ubuntu) and Windows and they worked ok. You can click within the svg and search for words - even on an iPhone (search within a webpage is located under the sharing button).
 
 [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
@@ -16,6 +16,7 @@ This example uses a font from Propublica. https://github.com/propublica/weepeopl
 
 [weepeople.svg](https://loydg.github.io/gh_pages/examples/weepeople.svg)
 
+## Comparing SVG and PNG Output
 Some more examples. This time the PNG output is generated with red text and the SVG output is generated with blue text. In an HTML file, the results are then stacked and the *mix-blend-mode* set to *multiply*. The two circles show the individual text colors and the resulting color when they overlap.
 
 [Amatic SC Bold](https://loydg.github.io/gh_pages/amatic_sc_bold_overlay.html), 
@@ -27,7 +28,7 @@ Some more examples. This time the PNG output is generated with red text and the 
 [Syncopate Bold](https://loydg.github.io/gh_pages/syncopate_bold_overlay.html),
 [WeePeople](https://loydg.github.io/gh_pages/weepeople_overlay.html)
 
-##Requirements/Steps
+## Requirements/Steps
 * Install Anaconda with Python3 if you don't already have it
 * Create environment *svgwordcloud*
 * Activate environment *svgwordcloud*
@@ -108,7 +109,7 @@ Add this function - `to_svg()` - before `to_img()` (not that it has to be in tha
             print ('<text x="{}" y="{}" font-size="{}"{}{}>{}</text>'.format(svgX, svgY, font_size, svgTransform, svgFill, word))
     
 ```
-## Script for A New Hope wordcloud 
+## Script That Generated the Output 
 The examples at the top of the page were produced with this script [svg_a_new_hope_net.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_net.py). It requires an internet connection.
 
 When run, it will output an SVG wordcloud using the Roboto typeface (after you close the image preview window). So I'd suggest running it as:
@@ -117,7 +118,7 @@ When run, it will output an SVG wordcloud using the Roboto typeface (after you c
 
 Several other typefaces can be chosen. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the SVG text to blue and the PNG text to red.
 
-## Opening the output in vector drawing programs
+## Opening the SVG in Vector Drawing Programs
 The Output can also be opened by Adobe Illustrator, Affinity Designer or Inkscape - **IF** you have the font installed on your machine. **BUT**...
 
 Inkscape ignores the font-weight set in the SVG. You'd probably have to write a Python plugin to fix that. So if you're using Inkscape, only make wordclouds with normal weight fonts.
