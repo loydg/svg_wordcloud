@@ -1,7 +1,7 @@
 # SVG Word Cloud
 A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output while making the bare minimum changes to the code.
 ## SVG Output Examples
-Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com. I've tested them in Firefox, Chrome, and Safari on OSX, iOS POP!os(a variant of Ubuntu) and Windows and they worked ok. You can click within the svg and search for words - even on an iPhone (search within a webpage is located under the sharing button).
+Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. Unless otherwise noted, the fonts are from https://fonts.google.com. I've tested the SVG files in Firefox, Chrome, and Safari on OSX, iOS POP!os(a variant of Ubuntu) and Windows and they worked ok. The comparison examples did not work in I.E. You can click within the svg and search for words - even on an iPhone (search within a webpage is located under the sharing button).
 
 [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
 [amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg), 
