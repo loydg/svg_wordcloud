@@ -1,7 +1,7 @@
 # gh_pages
 A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that produces SVG output while making the bare minimum changes to the code.
 
-Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com.
+Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. These fonts are from https://fonts.google.com. 
 
 [oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
 [amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg), 
@@ -27,12 +27,12 @@ Some more examples. This time the PNG output is generated with red text and the 
 [Syncopate Bold](https://loydg.github.io/gh_pages/syncopate_bold_overlay.html),
 [WeePeople](https://loydg.github.io/gh_pages/weepeople_overlay.html)
 
-Requirements
-* Anaconda with Python3
+Requirements/Steps
+* Install Anaconda with Python3 if you don't already have it
 * Create environment *wordcloud*
 * Activate environment *wordcloud*
 * Install *matplotlib* and *wordcloud* modules
-* modify *your_local_directory/anaconda3/envs/wordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py* as described below
+* modify *your_directory/anaconda3/envs/wordcloud/lib/python3.7/site-packages/wordcloud/wordcloud.py* as described below
 
 Add a single line - `self.to_svg()` - to `generate_from_text()`.
 Here is the complete code for `generate_from_text()`. The additional line is before the return call.
@@ -109,6 +109,4 @@ Add this function - `to_svg()` - before `to_img()` (not that it has to be in tha
     
 ```
 
-I modified the python script `a_new_hope.py`. Instead of relying on local storage of the source text, image mask, and font file, they are downloaded from github using the python `tempfile` module. This is for the sake of convenience in testing it on different machines with a variety of typefaces. Changing it to use local files is trivial - and necessary if the intent is to produce SVG for use in a vector graphics program - in addition to specifying the path to the local font file, you would remove the `@import url("...Font_URL...")` from the SVG header. You will still need the `font-family: {...Font_Family/etc...}` code though.
-
-If you want to host the SVG on a website, the style element will require `@import url("{2}")` pointing to a font file in a WOFF format - which is what google font provides. ...I NEED TO ELABORATE ON THIS... 
+The examples at the top of the page were produced with this script [svg_a_new_hope_net.py](put link here)
