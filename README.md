@@ -129,7 +129,7 @@ So I would type ```python svg_a_new_hope_local.py>roboto_slab_bold.svg```
 
 You will need to edit the font file location according to your machine. Also remember that if your intention is to open the output in something like Adobe Illustrator, you need to specify fonts that are in your system path or one of the other specific places that the application looks for font files, as opposed to some random folder where you may have squirreled away downloads.
 
-In my case, I had the difficulties mentioned above when opening it in Inkscape, so I transfered it to my Mac and opened it in Affinity Designer. Here's a [screenshot](get the link)
+In my case, I had the difficulties mentioned above when opening it in Inkscape, so I transfered it to my Mac and opened it in Affinity Designer. Here's a [screenshot](https://github.com/loydg/gh_pages/blob/master/affinity_designer_screenshot.png) (the red squiggels are spell-check warnings)
 
 
 
