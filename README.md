@@ -12,6 +12,8 @@ Some examples to demonstrate that it really does work. The output is produced by
 [black_ops_one.svg](https://loydg.github.io/gh_pages/examples/black_ops_one.svg), 
 [press_start_2p.svg](https://loydg.github.io/gh_pages/examples/press_start_2p.svg)
 
+stalinist_one.svg has an incorrect layout of words due to an error in the TTF font file in googles github repository that has been corrected in the version at https://fonts.google.com. I left it as is to show what can happen when there is a mismatch between the font file that generated the PNG and the font file that generates the SVG. It is corrected in the example below. Oddly, the Google github repository has two versions of Roboto Slab with slight differences in "g","k","K" and "R". Also, Black Ops One has a bug affecting "R" - it looks bad - but doesn't affect wordcloud layout.
+
 This example uses a font from Propublica. https://github.com/propublica/weepeople
 
 [weepeople.svg](https://loydg.github.io/gh_pages/examples/weepeople.svg)
@@ -109,29 +111,38 @@ Here is the complete code for `generate_from_text()`. The additional line is bef
             print ('<text x="{}" y="{}" font-size="{}"{}{}>{}</text>'.format(svgX, svgY, font_size, svgTransform, svgFill, word))
     
 ```
-## Script That Generated the Output 
-The examples at the top of the page were produced with this script [svg_a_new_hope_net.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_net.py). It requires an internet connection.
+## Script That Generated the Output Above
+The examples at the top of the page were produced with this script - [svg_a_new_hope_net.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_net.py). 
 
-When run, it will output an SVG wordcloud using the Roboto typeface (after you close the image preview window). So I'd suggest running it as:
+It requires an internet connection. When run, it will download the required font, image mask, and text from github and output an SVG wordcloud using the Roboto typeface. So I'd suggest running it as:
 
 ```python svg_a_new_hope_net.py >roboto.svg```
 
-Several other typefaces can be chosen. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the SVG text to blue and the PNG text to red.
+The code contains a data structure containing data for several other typefaces. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the SVG text to blue and the PNG text to red. If the typeface the SVG uses is installed on your system, you will be able to open the SVG in Adobe Illustrator, Affinity Desiginer, or Inkscape.
+
+## Generating the SVG with Fonts on Your Machine
+If you want to produce output from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_local.py). As is, it will produce an SVG wordcloud using bold weighted text from the Roboto Slab typeface, because the Ubuntu variant I tested it on happened to have the font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf. Just substitute appropriate values from your system for these lines:
+
+```python
+fontFILE = '/usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf'
+fontFamily = 'Roboto Slab'
+fontWeight = 'Bold'
+```
+
+And run the script similarly... ```python svg_a_new_hope_local.py>roboto_slab_bold.svg```
+
+And remember that if your intention is to open the output in something like Adobe Illustrator, you must specify fonts that are in your system path or one of the other specific places that the application looks for font files, as opposed to some random folder where you may have squirreled away downloads.
 
 ## Opening the SVG in Vector Drawing Programs
-The Output can also be opened by Adobe Illustrator, Affinity Designer or Inkscape - **IF** you have the font installed on your machine. **BUT**...
+The Output can be opened by Adobe Illustrator, Affinity Designer or Inkscape. There may be others but these are the ones that I am most familiar with. Inkscape is open source and free but is lacking in some of the text/character features you will need. Adobe Illustrator is expensive but works well with SVG in most cases. Affinity designer costs $50 - one time payment - no perpetual license fees and it actually works better with TrueType files than Adobe (so far, knock on wood). It has other oddities - sometimes SVG elements, for instance the background rectangles, are masked and you have to drag on a corner to unmask the element and make it visible. 
 
-Inkscape ignores the font-weight set in the SVG. You'd probably have to write a Python plugin to fix that. So if you're using Inkscape, only make wordclouds with normal weight fonts.
+### BUT
 
-Adobe Illustrator and Affinity Designer both ignore the ligature and kernings settings. For both applications, you can box select all the text and set the kerning to 0; In Affinity Designer, you can turn off ligatures in the same panel that lets you zero out kerning. Adobe Illustrator allows you to turn off the ligatures for OpenType fonts but not TrueType fonts. So in Illustrator you have to do the clumsy work-around of box selecting the text, changing it to an OpenType font (Myriad Pro happens to be the first one that appears for me), turn off ligatures, then change the font back to the original TrueType font - Illustrator "remembers" the ligature settings. I don't know how Inkscape handles this - but I wouldn't expect much.
+Inkscape ignores the font-weight value set in the style element of the SVG. And you can't just box select all the text and change the font weight - you can't change one attribute of all the text elements. Instead it changes all the text to the same font size and weight. You could probably write a Python plugin to implement it. 
 
-If you want to produce output from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_local.py). The machine(Ubuntu-ish) I tested it on had the following font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf.
+Adobe Illustrator and Affinity Designer both ignore the ligature and kerning settings. For both applications, you can box select all the text and set the kerning to 0. In Affinity Designer, you can turn off ligatures in the same panel that lets you zero out kerning. Adobe Illustrator allows you to turn off the ligatures for OpenType fonts but not TrueType fonts. So in Illustrator you have to do the clumsy work-around of box selecting the text, changing it to an OpenType font (Myriad Pro happens to be the first one that appears for me), turn off ligatures, then change the font back to the original TrueType font - Illustrator "remembers" the ligature settings. I didn't bother to investigate this in Inkscape - the font-weight issue was enough for me.
 
-So I would type ```python svg_a_new_hope_local.py>roboto_slab_bold.svg```
-
-You will need to edit the font file location according to your machine. Also remember that if your intention is to open the output in something like Adobe Illustrator, you need to specify fonts that are in your system path or one of the other specific places that the application looks for font files, as opposed to some random folder where you may have squirreled away downloads.
-
-In my case, I had the difficulties mentioned above when opening it in Inkscape, so I transfered it to my Mac and opened it in Affinity Designer. Here's a [screenshot](https://github.com/loydg/gh_pages/blob/master/affinity_designer_screenshot.png) (the red squiggles are spell-check warnings)
+After opening ```roboto_slab_bold.svg``` in Inkscape and noting the font weight problem,  I transfered it to my Mac and opened it in Affinity Designer. Here's a [screenshot](https://github.com/loydg/gh_pages/blob/master/affinity_designer_screenshot.png) (the red squiggles are spell-check warnings) Note the panel to the right with the various character/typeface settings.
 
 
 
