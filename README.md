@@ -3,32 +3,32 @@ A simple hack to Andreas Mueller's https://amueller.github.io/word_cloud that pr
 ## SVG Output Examples
 Some examples to demonstrate that it really does work. The output is produced by a modified version of [a_new_hope.py](https://github.com/amueller/word_cloud/blob/master/examples/a_new_hope.py) that prints out SVG in addition to the PNG. Unless otherwise noted, the fonts are from https://fonts.google.com. I've tested the SVG files in Firefox, Chrome, and Safari on OSX, iOS POP!os(a variant of Ubuntu) and Windows and they worked ok. The comparison examples did not work in I.E. You can click within the svg and search for words - even on an iPhone (search within a webpage is located under the sharing button).
 
-[oswald.svg](https://loydg.github.io/gh_pages/examples/oswald.svg), 
-[amatic_sc_bold.svg](https://loydg.github.io/gh_pages/examples/amatic_sc_bold.svg), 
-[zcool_kuaile.svg](https://loydg.github.io/gh_pages/examples/zcool_kuaile.svg), 
-[zilla_slab_highlight_bold.svg](https://loydg.github.io/gh_pages/examples/zilla_slab_highlight_bold.svg), 
-[libre_barcode_39_text.svg](https://loydg.github.io/gh_pages/examples/libre_barcode_39_text.svg), 
-[stalinist_one.svg](https://loydg.github.io/gh_pages/examples/stalinist_one.svg), 
-[black_ops_one.svg](https://loydg.github.io/gh_pages/examples/black_ops_one.svg), 
-[press_start_2p.svg](https://loydg.github.io/gh_pages/examples/press_start_2p.svg)
+[oswald.svg](https://loydg.github.io/svg_wordcloud/examples/oswald.svg), 
+[amatic_sc_bold.svg](https://loydg.github.io/svg_wordcloud/examples/amatic_sc_bold.svg), 
+[zcool_kuaile.svg](https://loydg.github.io/svg_wordcloud/examples/zcool_kuaile.svg), 
+[zilla_slab_highlight_bold.svg](https://loydg.github.io/svg_wordcloud/examples/zilla_slab_highlight_bold.svg), 
+[libre_barcode_39_text.svg](https://loydg.github.io/svg_wordcloud/examples/libre_barcode_39_text.svg), 
+[stalinist_one.svg](https://loydg.github.io/svg_wordcloud/examples/stalinist_one.svg), 
+[black_ops_one.svg](https://loydg.github.io/svg_wordcloud/examples/black_ops_one.svg), 
+[press_start_2p.svg](https://loydg.github.io/svg_wordcloud/examples/press_start_2p.svg)
 
 stalinist_one.svg has an incorrect layout of words due to an error in the TTF font file in googles github repository that has been corrected in the version at https://fonts.google.com. I left it as is to show what can happen when there is a mismatch between the font file that generated the PNG and the font file that generates the SVG. It is corrected in the example below. Oddly, the Google github repository has two versions of Roboto Slab with slight differences in "g","k","K" and "R". Also, Black Ops One has a bug affecting "R" - it looks bad - but doesn't affect wordcloud layout.
 
 This example uses a font from Propublica. https://github.com/propublica/weepeople
 
-[weepeople.svg](https://loydg.github.io/gh_pages/examples/weepeople.svg)
+[weepeople.svg](https://loydg.github.io/svg_wordcloud/examples/weepeople.svg)
 
 ## Comparing SVG and PNG Output
 Some more examples. This time the PNG output is generated with red text and the SVG output is generated with blue text. In an HTML file, the results are then stacked and the *mix-blend-mode* set to *multiply*. The two circles show the individual text colors and the resulting color when they overlap.
 
-[Amatic SC Bold](https://loydg.github.io/gh_pages/amatic_sc_bold_overlay.html), 
-[Crushed](https://loydg.github.io/gh_pages/crushed_overlay.html), 
-[Mountains of Christmas](https://loydg.github.io/gh_pages/mountains_of_christmas_overlay.html), 
-[Permanent Marker](https://loydg.github.io/gh_pages/permanent_marker_overlay.html), 
-[Roboto Slab Bold](https://loydg.github.io/gh_pages/roboto_slab_bold_overlay.html), 
-[Stalinist One](https://loydg.github.io/gh_pages/stalinist_one_overlay.html), 
-[Syncopate Bold](https://loydg.github.io/gh_pages/syncopate_bold_overlay.html),
-[WeePeople](https://loydg.github.io/gh_pages/weepeople_overlay.html)
+[Amatic SC Bold](https://loydg.github.io/svg_wordcloud/amatic_sc_bold_overlay.html), 
+[Crushed](https://loydg.github.io/svg_wordcloud/crushed_overlay.html), 
+[Mountains of Christmas](https://loydg.github.io/svg_wordcloud/mountains_of_christmas_overlay.html), 
+[Permanent Marker](https://loydg.github.io/svg_wordcloud/permanent_marker_overlay.html), 
+[Roboto Slab Bold](https://loydg.github.io/svg_wordcloud/roboto_slab_bold_overlay.html), 
+[Stalinist One](https://loydg.github.io/svg_wordcloud/stalinist_one_overlay.html), 
+[Syncopate Bold](https://loydg.github.io/svg_wordcloud/syncopate_bold_overlay.html),
+[WeePeople](https://loydg.github.io/svg_wordcloud/weepeople_overlay.html)
 
 In most cases the PNG and SVG match quite well. Generally, it seems that mismatches most commonly occur in the longer text strings, possibly because of accumulating error due to integer math. The WeePeople example has the most significant errors, but it is also a rather idiosyncratic typeface.
 
@@ -125,7 +125,7 @@ Here is the complete code for `generate_from_text()`. The additional line is bef
     
 ```
 ## Script That Generated the Output Above
-The examples at the top of the page were produced with this script - [svg_a_new_hope_net.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_net.py). 
+The examples at the top of the page were produced with this script - [svg_a_new_hope_net.py](https://github.com/loydg/svg_wordcloud/blob/master/svg_a_new_hope_net.py). 
 
 It requires an internet connection. When run, it will download the required font, image mask, and text from github and output an SVG wordcloud using the Roboto typeface. So I'd suggest running it as:
 
@@ -134,7 +134,7 @@ It requires an internet connection. When run, it will download the required font
 The code contains a data structure containing data for several other typefaces. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the SVG text to blue and the PNG text to red. If the typeface the SVG uses is installed on your system, you will be able to open the SVG in Adobe Illustrator, Affinity Desiginer, or Inkscape.
 
 ## Generating the SVG with Fonts on Your Machine
-If you want to produce output from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/gh_pages/blob/master/svg_a_new_hope_local.py). As is, it will produce an SVG wordcloud using bold weighted text from the Roboto Slab typeface, because the Ubuntu variant I tested it on happened to have the font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf. Just substitute appropriate values from your system for these lines:
+If you want to produce output from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/svg_wordcloud/blob/master/svg_a_new_hope_local.py). As is, it will produce an SVG wordcloud using bold weighted text from the Roboto Slab typeface, because the Ubuntu variant I tested it on happened to have the font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf. Just substitute appropriate values from your system for these lines:
 
 ```python
 fontFILE = '/usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf'
@@ -155,7 +155,7 @@ Inkscape ignores the font-weight value set in the style element of the SVG. And 
 
 Adobe Illustrator and Affinity Designer both ignore the ligature and kerning settings. For both applications, you can box select all the text and set the kerning to 0. In Affinity Designer, you can turn off ligatures in the same panel that lets you zero out kerning. Adobe Illustrator allows you to turn off the ligatures for OpenType fonts but not TrueType fonts. So in Illustrator you have to do the clumsy work-around of box selecting the text, changing it to an OpenType font (Myriad Pro happens to be the first one that appears for me), turn off ligatures, then change the font back to the original TrueType font - Illustrator "remembers" the ligature settings. I didn't bother to investigate this in Inkscape - the font-weight issue was enough for me.
 
-After opening ```roboto_slab_bold.svg``` in Inkscape and noting the font weight problem,  I transfered it to my Mac and opened it in Affinity Designer. Here's a [screenshot](https://github.com/loydg/gh_pages/blob/master/affinity_designer_screenshot.png) (the red squiggles are spell-check warnings) Note the panel to the right with the various character/typeface settings.
+After opening ```roboto_slab_bold.svg``` in Inkscape and noting the font weight problem,  I transfered it to my Mac and opened it in Affinity Designer. Here's a [screenshot](https://github.com/loydg/svg_wordcloud/blob/master/affinity_designer_screenshot.png) (the red squiggles are spell-check warnings) Note the panel to the right with the various character/typeface settings.
 
 
 
