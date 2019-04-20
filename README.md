@@ -134,7 +134,7 @@ It requires an internet connection. When run, it will download the required font
 The code contains a data structure containing data for several other typefaces. With the exception of the WeePeople typeface, the resulting output can be viewed by any web browser that has access to the internet - all the font information is accessed from Google Fonts. To produce the output for the overlay examples, modify the script as follows - set the background color to white, set the SVG text to blue and the PNG text to red. If the typeface the SVG uses is installed on your system, you will be able to open the SVG in Adobe Illustrator, Affinity Desiginer, or Inkscape.
 
 ## Generating the SVG with Fonts on Your Machine
-If you want to produce output from font files on your machine, you can use [svg_a_new_hope_local.py](https://github.com/loydg/svg_wordcloud/blob/master/svg_a_new_hope_local.py). As is, it will produce an SVG wordcloud using bold weighted text from the Roboto Slab typeface, because the Ubuntu variant I tested it on happened to have the font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf. Just substitute appropriate values from your system for these lines:
+If you want to produce output from font files on your machine, you can use - [svg_a_new_hope_local.py](https://github.com/loydg/svg_wordcloud/blob/master/svg_a_new_hope_local.py). As is, it will produce an SVG wordcloud using bold weighted text from the Roboto Slab typeface, because the Ubuntu variant I tested it on happened to have the font file - /usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf. Just substitute appropriate values from your system for these lines:
 
 ```python
 fontFILE = '/usr/share/fonts/truetype/roboto-slab/RobotoSlab-Bold.ttf'
