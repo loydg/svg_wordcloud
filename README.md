@@ -30,6 +30,19 @@ Some more examples. This time the PNG output is generated with red text and the 
 [Syncopate Bold](https://loydg.github.io/gh_pages/syncopate_bold_overlay.html),
 [WeePeople](https://loydg.github.io/gh_pages/weepeople_overlay.html)
 
+In most cases the PNG and SVG match quite well. Generally, it seems that mismatches most commonly occur in the longer text strings, possibly because of accumulating error due to integer math. The WeePeople example has the most significant errors, but it is also a rather idiosyncratic typeface.
+
+## How
+When the code that generates the PNG writes a word to an image at (x,y) - (x,y) is the coordinate of the upper left bounding box of the rendered word. When SVG text is rendered to a screen at (x,y) - (x,y) is the coordinate of the start of the baseline of the rendered word. With some caveats, I wondered if that was the only significant difference between the two. So the first step was to transform (x,y) of the upper left bounding box of the text to (xSVG, ySVG) the coordinates of the text's baseline and see what it looked like. And the result was ok, but clearly not correct either.
+And I thought that was possibly because the SVG rendered text in a more sophisticated manner. PNG code would write a word, "first" for example, as "f" glyph, "i" glyph, "r" glyph, "s" glyph, "t" glyph - and the SVG code would write a word to screen as "fi" ligature glyph, "r" glyph, "s" glyph, "t" glyph with kerning applied (and perhaps other transformations). And that's not easy to fix in the Python code. But it's trivial to fix in SVG in the style element - just turn it off to match what the PNG code does.
+
+```html
+text{
+     font-kerning:none;
+     font-variant-ligatures:none
+    }
+```
+
 ## Requirements/Steps
 * Install Anaconda with Python3 if you don't already have it
 * Create environment *svgwordcloud*
