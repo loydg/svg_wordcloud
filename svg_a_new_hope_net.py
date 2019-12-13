@@ -9,6 +9,12 @@ Using the recolor method and custom coloring functions.
 import numpy as np
 from PIL import Image
 from os import path
+
+# Recently for me, following 2 lines required on osX per internet
+# ...because my conda environment is messed up, or something else...
+import matplotlib
+matplotlib.use("TKAgg")
+
 import matplotlib.pyplot as plt
 import os
 import random
@@ -89,7 +95,7 @@ theFonts = {
 
         'Crushed':['https://github.com/google/fonts/blob/master/apache/crushed/Crushed-Regular.ttf', 'https://fonts.googleapis.com/css?family=Crushed', '\'Crushed\', cursive'],
 
-        'WeePeople':['https://github.com/propublica/weepeople/blob/master/weepeople.ttf', 'You will have to figure out what goes here by refering to the demo at propublica/weepeople on github ', '\'WeePeople\''],
+        'WeePeople':['https://github.com/propublica/weepeople/blob/master/weepeople.ttf', 'http://propublica.github.io/weepeople/weepeople.css', '\'WeePeople\''],
 #        '':['', '', ''],
            }
 '''
@@ -154,6 +160,8 @@ Using a colored rect makes the result match the png produced
 by a_new_hope.py
 
 '''
+# kerning/ligature settings don't always have an effect, but sometimes they do,
+# so i go ahead and specify "none" just in case...
 # https://www.w3.org/TR/css-fonts-3/#font-kerning-prop
 # https://www.w3.org/TR/css-fonts-3/#font-variant-ligatures-prop
 print ("""<svg width="{0}" height="{1}" xmlns="http://www.w3.org/2000/svg">
